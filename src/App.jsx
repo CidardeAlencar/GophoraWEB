@@ -1,13 +1,14 @@
 import './App.css'
 // import NavarComponent from './components/navarComponent'
-import HomeScreen from './screens/HomeScreen'
+// import HomeScreen from './screens/HomeScreen'
+import ProductsScreen from './screens/ProductsScreen'
 
 function App() {
 
   return (
     <div className='wrapper'>
-      {/* <NavarComponent></NavarComponent> */}
-      <HomeScreen></HomeScreen>
+      {/* <HomeScreen></HomeScreen> */}
+      <ProductsScreen/>
     </div>
   )
 }

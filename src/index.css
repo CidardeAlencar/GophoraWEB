@@ -154,7 +154,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   height: 100vh;
-  width: 100vw;
 }
 .hashtag{
   font-family: 'nusar', sans-serif;
@@ -185,3 +184,4 @@ body {
     margin-bottom: 1.5em;
   }
 }
+/* Product seccion */
