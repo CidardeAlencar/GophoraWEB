@@ -185,3 +185,13 @@ body {
   }
 }
 /* Product seccion */
+.font-class{
+  font-family: 'nusar', sans-serif;
+}
+.product-section {
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  height: 100vh;
+}

@@ -50,7 +50,7 @@ function HomeScreen() {
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 d-flex align-items-center justify-content-center px-0">
-                  <button type="button" className="btn btn-outline-warning button-custom-marte py-3"><span>Comprar</span> <br/>MARTE ID NFT</button>
+                    <button type="button" className="btn btn-outline-warning button-custom-marte py-3">Comprar <br/>MARTE ID NFT</button>
                   </div>
                 </div>
             </div>
