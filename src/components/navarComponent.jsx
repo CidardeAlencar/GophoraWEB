@@ -15,7 +15,7 @@ function NavarComponent() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
               <li className="nav-item">
-              <NavLink exact to="/" className="nav-link my-nav-link" activeClassname="active">
+              <NavLink exact to="/" className="nav-link my-nav-link">
                 <span className="text-warning">NFT </span> 
                 COLLECTIBLES
               </NavLink>
@@ -24,12 +24,16 @@ function NavarComponent() {
               <a className="nav-link my-nav-link" href="#">ROADMAP</a>
               </li> */}
               <li className="nav-item">
-                <NavLink activeClassname="active" to="/productos" className="nav-link my-nav-link" href="#">PRODUCTOS</NavLink>
-              </li>
-              {/* <li className="nav-item">
-              <a className="nav-link my-nav-link"  href="#">TEAM</a>
+                <NavLink to="/productos" className="nav-link my-nav-link">
+                  PRODUCTOS
+                </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink to="/equipo" className="nav-link my-nav-link">
+                  TEAM
+                </NavLink>
+              </li>
+              {/* <li className="nav-item">
               <a className="nav-link my-nav-link"  href="#">LOGIN / <span className="text-warning">REGISTER </span> </a>
               </li> */}
           </ul>

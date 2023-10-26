@@ -4,6 +4,7 @@ import NavarComponent from './components/navarComponent'
 import HomeScreen from './screens/HomeScreen'
 import ProductsScreen from './screens/ProductsScreen'
 import FooterComponent from './components/FooterComponent';
+import TeamScreen from './screens/TeamScreen';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path='/' exact element={<HomeScreen/>}/>
             <Route path='/productos' element={<ProductsScreen/>}/>
+            <Route path='/equipo' element={<TeamScreen/>}/>
           </Routes>
         <FooterComponent/>
       </Router>

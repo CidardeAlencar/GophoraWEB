@@ -12,7 +12,7 @@ function ProductsScreen() {
                         <span className="text-warning">NFT</span> COLLECTIBLES <span className="text-warning">: MARTE ID</span>
                     </div>
                     <p className="text-light m-0">Dirigido a Early Adopters es un ID de acceso y ticket de acceso a eventos y capacitación de GOPHORA de uso personal.</p>
-                    <a href="#" className="text-light">
+                    <a href="https://carbontrade-nine.vercel.app/marketplace" target="_blank" rel="noopener noreferrer" className="text-light">
                         <button type="button" className="btn btn-outline-warning button-custom-marte">COMPRAR</button>
                     </a>
                 </div>
@@ -22,7 +22,7 @@ function ProductsScreen() {
                         <span className="text-warning">NFT</span> COLLECTIBLES <span className="text-warning">: CRIPTOPURRS</span> <span className="text-secondary">Pronto en OpenSea</span>
                     </div>
                     <p className="text-light m-0">Dirigido a Inversionistas es un activo digital con acceso premium y beneficios dentro del ecosistema GOPHORA es de multiples usos, inclusive puede alquilarse o venderse según especulación en el futuro.</p>
-                    <a href="#" className="text-light">
+                    <a href="https://carbontrade-nine.vercel.app/marketplace" target="_blank" rel="noopener noreferrer" className="text-light">
                         <button type="button" className="btn btn-outline-warning button-custom-marte">COMPRAR</button>
                     </a>
                     {/* <img src={vector} alt="vector de seleccion de boton" className="img-fluid"/> */}
@@ -38,7 +38,7 @@ function ProductsScreen() {
                     <a href="" className="text-secondary">
                         Ver Catalogo de Productos y Servicios para canje de Bonos Triple Impacto
                     </a>
-                    <a href="#" className="text-light">
+                    <a href="https://carbontrade-nine.vercel.app/marketplace" target="_blank" rel="noopener noreferrer" className="text-light">
                         <button type="button" className="btn btn-outline-warning button-custom-marte">COMPRAR</button>
                     </a>
                 </div>

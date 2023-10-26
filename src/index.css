@@ -196,3 +196,27 @@ body {
   background-position: center center;
   height: 100vh;
 }
+/* Team seccion */
+.title-font{
+  font-size: 17px;
+  color: #FC0;
+  font-weight: 400;
+  font-family: 'nusar', sans-serif;
+}
+.text-font{
+  font-size: 13px;
+  color: #FFF;
+  font-weight: 400;
+  font-family: 'nusar', sans-serif;
+}
+.card-background {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-top-left-radius: 50% 20%;
+  border-top-right-radius: 50% 20%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.card-background img {
+  border-top-left-radius: 50% 20%;
+  border-top-right-radius: 50% 20%;
+}
