@@ -1,12 +1,7 @@
-import NavarComponent from "../components/navarComponent"
-// import vector from "../assets/vector.png";
 import background2 from "../assets/backGround2.png";
 import planes from "../assets/planes.png";
-import FooterComponent from "../components/FooterComponent";
 function ProductsScreen() {
-  return (
-    <>
-    <NavarComponent/>
+  return ( 
     <section className="product-section" style={{ backgroundImage: `url(${background2})` }}>
 
         <div className="container font-class my-3">
@@ -50,8 +45,6 @@ function ProductsScreen() {
             </div>
         </div>
     </section>
-    <FooterComponent></FooterComponent>
-    </>
   )
 }
 

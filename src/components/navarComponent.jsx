@@ -1,12 +1,13 @@
+import { NavLink } from 'react-router-dom';
 import logo from "../assets/logo.png";
 
 function NavarComponent() {
   return (
     <nav className="navbar navbar-expand-lg"data-bs-theme="dark">
     <div className="container-fluid justify-content-between">
-        <a className="navbar-brand ms-3" href="#">
+        <NavLink className="navbar-brand ms-3" to="/">
             <img className="custom-logo" src={logo} alt="Gophora icon"/>
-        </a>
+        </NavLink>
         <div className="me-3">
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -14,22 +15,23 @@ function NavarComponent() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
               <li className="nav-item">
-              <a className="nav-link my-nav-link active" aria-current="page" href="#">
+              <NavLink exact to="/" className="nav-link my-nav-link" activeClassname="active">
                 <span className="text-warning">NFT </span> 
-                COLLECTIBLES</a>
+                COLLECTIBLES
+              </NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
               <a className="nav-link my-nav-link" href="#">ROADMAP</a>
-              </li>
+              </li> */}
               <li className="nav-item">
-              <a className="nav-link my-nav-link" href="#">PRODUCTOS</a>
+                <NavLink activeClassname="active" to="/productos" className="nav-link my-nav-link" href="#">PRODUCTOS</NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
               <a className="nav-link my-nav-link"  href="#">TEAM</a>
               </li>
               <li className="nav-item">
               <a className="nav-link my-nav-link"  href="#">LOGIN / <span className="text-warning">REGISTER </span> </a>
-              </li>
+              </li> */}
           </ul>
         </div>
         </div>

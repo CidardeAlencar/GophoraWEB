@@ -3,12 +3,8 @@ import criptopurrs from "../assets/criptopurrs.png";
 import luna from "../assets/NFT LUNA.png";
 import tierra from "../assets/NFT TIERRA.png";
 import marte from "../assets/NFT MARTE.png";
-import NavarComponent from "../components/navarComponent";
-import FooterComponent from "../components/FooterComponent";
 function HomeScreen() {
   return (
-    <>
-    <NavarComponent/>
     <section className="home-section" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="container-fluid d-flex flex-column justify-content-center text-center p-0">
         <div className="line-custom py-1">
@@ -61,8 +57,6 @@ function HomeScreen() {
         </div>
       </div>
     </section>
-    <FooterComponent/>
-    </>
   )
 }
 

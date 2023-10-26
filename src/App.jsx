@@ -1,14 +1,22 @@
 import './App.css'
-// import NavarComponent from './components/navarComponent'
-// import HomeScreen from './screens/HomeScreen'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NavarComponent from './components/navarComponent'
+import HomeScreen from './screens/HomeScreen'
 import ProductsScreen from './screens/ProductsScreen'
+import FooterComponent from './components/FooterComponent';
 
 function App() {
 
   return (
     <div className='wrapper'>
-      {/* <HomeScreen></HomeScreen> */}
-      <ProductsScreen/>
+      <Router>
+        <NavarComponent/>
+          <Routes>
+            <Route path='/' exact element={<HomeScreen/>}/>
+            <Route path='/productos' element={<ProductsScreen/>}/>
+          </Routes>
+        <FooterComponent/>
+      </Router>
     </div>
   )
 }
