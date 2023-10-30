@@ -15,11 +15,25 @@ function NavarComponent() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav align-items-center">
-              <li className="nav-item">
-              <NavLink exact to="/" className="nav-link my-nav-link">
+              <li className="nav-item dropdown">
+              <NavLink exact to="/" className="nav-link my-nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <span className="text-warning">NFT </span> 
                 COLLECTIBLES
               </NavLink>
+              <ul className="dropdown-menu">
+                <li className="nav-item">
+                  <NavLink exact to="/" className="nav-link dropdown-item">
+                    <span className="text-warning">NFT </span> 
+                    COLLECTIBLES
+                  </NavLink>
+                </li>
+                <li><hr className="dropdown-divider"/></li>
+                <li className='text-warning'>Marte ID NFT</li>
+                <li><a className="dropdown-item" href="#">Comprar MARTE ID NFT</a></li>
+                <li><a className="dropdown-item" href="#">MINTEAR NFT</a></li>
+                <li><hr className="dropdown-divider"/></li>
+                <li className='text-warning'>Criptopurrs</li>
+              </ul>
               </li>
               <li className="nav-item">
                 <NavLink to="/ruta" className="nav-link my-nav-link">
