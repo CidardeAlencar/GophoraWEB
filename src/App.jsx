@@ -5,6 +5,7 @@ import HomeScreen from './screens/HomeScreen'
 import ProductsScreen from './screens/ProductsScreen'
 import FooterComponent from './components/FooterComponent';
 import TeamScreen from './screens/TeamScreen';
+import RoadmapScreen from './screens/RoadmapScreen';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
             <Route path='/' exact element={<HomeScreen/>}/>
             <Route path='/productos' element={<ProductsScreen/>}/>
             <Route path='/equipo' element={<TeamScreen/>}/>
+            <Route path='/ruta' element={<RoadmapScreen/>}/>
           </Routes>
         <FooterComponent/>
       </Router>

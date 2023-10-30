@@ -174,7 +174,6 @@ body {
   font-family: 'nusar', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  color: #ffb400;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 @media (max-width: 769px) {
@@ -183,6 +182,21 @@ body {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
   }
+}
+.btn-custom {
+  /* background-color: rgba(97, 0, 81, 0.51); Color de fondo de tu elección */
+  border-color: rgba(97, 0, 81, 1); /* Color del borde que coincide con el fondo para mantener el diseño del botón 'outline' */
+  color: rgba(97, 0, 81, 1); /* Color del texto */
+}
+
+.btn-custom:hover {
+  background-color: rgba(97, 0, 81, 0.8); /* Un tono más oscuro para el hover */
+  border-color: rgba(97, 0, 81, 0.8);
+  color: #FFFFFF;
+}
+
+.btn-custom:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 87, 51, 0.5); /* Ajusta el color aquí también */
 }
 /* Product seccion */
 .font-class{

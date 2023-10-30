@@ -12,7 +12,7 @@ function FooterComponent() {
                 <a href="https://twitter.com/GophoraNft" target="_blank" rel="noopener noreferrer">
                     <i className="bi bi-twitter-x"></i>
                 </a>
-                <a href="https://discord.com/invite/Qy8WtKV6" target="_blank" rel="noopener noreferrer">
+                <a href="https://discord.gg/jbhzwjfcpV" target="_blank" rel="noopener noreferrer">
                     <i className="bi bi-discord"></i>
                 </a>
                 <a href="https://wa.me/59170516511" target="_blank" rel="noopener noreferrer">
