@@ -6,6 +6,7 @@ import ProductsScreen from './screens/ProductsScreen'
 import FooterComponent from './components/FooterComponent';
 import TeamScreen from './screens/TeamScreen';
 import RoadmapScreen from './screens/RoadmapScreen';
+import ComprarScreen from './screens/ComprarScreen';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Route path='/productos' element={<ProductsScreen/>}/>
             <Route path='/equipo' element={<TeamScreen/>}/>
             <Route path='/ruta' element={<RoadmapScreen/>}/>
+            <Route path='/comprar' element={<ComprarScreen/>}/>
           </Routes>
         <FooterComponent/>
       </Router>

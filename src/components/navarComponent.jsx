@@ -29,7 +29,11 @@ function NavarComponent() {
                 </li>
                 <li><hr className="dropdown-divider"/></li>
                 <li className='text-warning'>Marte ID NFT</li>
-                <li><a className="dropdown-item" href="#">Comprar MARTE ID NFT</a></li>
+                <li>
+                  <NavLink to="/comprar" className="dropdown-item">
+                    Comprar MARTE ID NFT
+                  </NavLink>
+                </li>
                 <li><a className="dropdown-item" href="#">MINTEAR NFT</a></li>
                 <li><hr className="dropdown-divider"/></li>
                 <li className='text-warning'>Criptopurrs</li>
@@ -51,7 +55,7 @@ function NavarComponent() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <a href="https://discord.gg/jbhzwjfcpV" target="_blank" rel="noopener noreferrer">
+                <a href="https://discord.com/invite/NStWHSMQ" target="_blank" rel="noopener noreferrer">
                   <img src={startship} alt="gophora startship"/>
                 </a>
               </li>
