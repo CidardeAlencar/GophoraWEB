@@ -2,7 +2,7 @@ import marte from "../assets/marteIDNFT.png";
 
 function ComprarScreen() {
   return (
-    <section className="home-section">
+    <section className="home-section font-class">
         <div className="container">
             <div className="row">
               <div className="col-12 col-md-6">
