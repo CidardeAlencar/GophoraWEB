@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import backgroundImage from "../assets/planetaBackground.png";
 import criptopurrs from "../assets/criptopurrs1.png";
 import luna from "../assets/NFT LUNA.png";
@@ -48,9 +49,12 @@ function HomeScreen() {
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center px-0">
-                    <a href="https://carbontrade-nine.vercel.app/marketplace" target="_blank" rel="noopener noreferrer">
+                  <NavLink to="/comprar">
+                  <button type="button" className="btn btn-outline-warning button-custom-marte py-xxl-4 py-xl-4 py-lg-4 my-sm-2">Comprar <br/>MARTE ID NFT</button>
+                  </NavLink>
+                    {/* <a href="https://carbontrade-nine.vercel.app/marketplace" target="_blank" rel="noopener noreferrer">
                       <button type="button" className="btn btn-outline-warning button-custom-marte py-xxl-4 py-xl-4 py-lg-4 my-sm-2">Comprar <br/>MARTE ID NFT</button>
-                    </a>
+                    </a> */}
                   </div>
                   <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center px-0">
                     <a href="https://carbontrade-nine.vercel.app/marketplace" target="_blank" rel="noopener noreferrer">
