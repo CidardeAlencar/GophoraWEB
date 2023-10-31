@@ -17,7 +17,7 @@ function HomeScreen() {
         {/* body */}
         <div className="container">
           <div className="row d-flex justify-content-center align-items-center mb-3">
-            <div className="col-8">
+            <div className="col-12 col-xl-6">
                 <div>
                     <a href="https://lanzatunombrealespacio.gophora.com/" target="_blank" rel="noopener noreferrer" className="row text-primary justify-content-center hashtag pt-2">
                       #gophoralanzatunombrealespacio
@@ -45,26 +45,23 @@ function HomeScreen() {
                     11/11/23
                     ESTACIÓN TERRESTRE ABE AMACHUMA.
                     <br/><span className="text-warning">TRIPULACIÓN_ </span> 
-                    12.
+                    190.
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center px-0">
                   <NavLink to="/comprar">
-                  <button type="button" className="btn btn-outline-warning button-custom-marte py-xxl-4 py-xl-4 py-lg-4 my-sm-2">Comprar <br/>MARTE ID NFT</button>
+                  <button type="button" className="btn btn-outline-warning button-custom-marte py-xxl-4 py-xl-4 py-lg-5 my-sm-2">Comprar <br/>MARTE ID NFT</button>
                   </NavLink>
-                    {/* <a href="https://carbontrade-nine.vercel.app/marketplace" target="_blank" rel="noopener noreferrer">
-                      <button type="button" className="btn btn-outline-warning button-custom-marte py-xxl-4 py-xl-4 py-lg-4 my-sm-2">Comprar <br/>MARTE ID NFT</button>
-                    </a> */}
                   </div>
-                  <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center px-0">
+                  <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center justify-content-lg-start px-0">
                     <a href="https://carbontrade-nine.vercel.app/marketplace" target="_blank" rel="noopener noreferrer">
-                      <button type="button" className="btn btn-outline-warning button-custom-marte btn-custom py-xxl-4 py-xl-5 py-lg-5">MINTEAR<br/>NFT</button>
+                      <button type="button" className="btn btn-outline-warning button-custom-marte btn-custom py-xxl-5 py-xl-5 py-lg-5">MINTEAR<br/>NFT</button>
                     </a>
                   </div>
                 </div>
             </div>
-            <div className="col-lg-4 col-md-12 d-flex justify-content-center align-items-center">
-              <img src={criptopurrs} alt="Criptopurrs" className="img-fluid"/>
+            <div className="col-12 col-xl-6 d-flex justify-content-center align-items-center">
+              <img src={criptopurrs} alt="Criptopurrs" className="img-full-height"/>
             </div>
           </div>
         </div>
