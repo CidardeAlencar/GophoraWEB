@@ -277,3 +277,12 @@ body {
 option{
   color: black;
 }
+/* Roadmap seccion */
+.space{
+  margin-bottom: 30%;
+}
+@media (max-width: 769px) {
+  .font-sizesm{
+    font-size: 0.625rem;
+  }
+}
