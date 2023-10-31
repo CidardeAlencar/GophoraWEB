@@ -148,6 +148,40 @@ body {
   }
 }
 /* Home seccion */
+/* Por defecto, para dispositivos muy pequeños */
+.img-full-height {
+  width: 610px;
+  object-fit: cover;
+}
+
+/* Para dispositivos pequeños */
+@media (min-width: 576px) {
+  .img-full-height {
+      width: 300px;
+  }
+}
+
+/* Para dispositivos medianos */
+@media (min-width: 768px) {
+  .img-full-height {
+      width: 400px;
+  }
+}
+
+/* Para dispositivos grandes */
+@media (min-width: 992px) {
+  .img-full-height {
+      width: 600px;
+  }
+}
+
+/* Para dispositivos extra grandes */
+@media (min-width: 1200px) {
+  .img-full-height {
+      width: 100%;  /* Aquí supongo que quieres que la imagen sea de altura completa en pantallas muy grandes */
+  }
+}
+
 .home-section {
   flex: 1;
   background-size: cover;
@@ -174,7 +208,7 @@ body {
   font-family: 'nusar', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
 @media (max-width: 769px) {
   .button-custom-marte{
