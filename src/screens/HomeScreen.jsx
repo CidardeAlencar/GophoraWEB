@@ -49,9 +49,9 @@ function HomeScreen() {
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center px-0">
-                  <NavLink to="/comprar">
-                  <button type="button" className="btn btn-outline-warning button-custom-marte py-xxl-4 py-xl-4 py-lg-5 my-sm-2">Comprar <br/>MARTE ID NFT</button>
-                  </NavLink>
+                    <NavLink to="/comprar">
+                    <button type="button" className="btn btn-outline-warning button-custom-marte py-xxl-4 py-xl-4 py-lg-5 my-sm-2">Comprar <br/>MARTE ID NFT</button>
+                    </NavLink>
                   </div>
                   <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center justify-content-lg-start px-0">
                     <a href="https://carbontrade-nine.vercel.app/marketplace" target="_blank" rel="noopener noreferrer">

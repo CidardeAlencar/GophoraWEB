@@ -268,3 +268,12 @@ body {
   border-top-left-radius: 50% 20%;
   border-top-right-radius: 50% 20%;
 }
+/* Comprar section */
+.textfield-form{
+  border-color:#ffb400 ;
+  background-color: transparent;
+  color: white;
+}
+option{
+  color: black;
+}
