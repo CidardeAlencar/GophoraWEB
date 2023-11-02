@@ -1,4 +1,5 @@
-// import background2 from "../assets/backGround2.png";
+
+import { NavLink } from 'react-router-dom';
 import background2 from "../assets/backGround2.png";
 import marte from "../assets/NFT MARTE.png";
 import productos from "../assets/PRODUCTS.png";
@@ -60,14 +61,14 @@ function ProductsScreen() {
                         <span className="text-warning">NFT</span> COLLECTIBLES <span className="text-warning">: MARTE ID</span>
                     </div>
                     <p className="text-light m-0">Dirigido a Early Adopters es un ID de acceso y ticket de acceso a eventos y capacitación de GOPHORA de uso personal.</p>
-                    <a href="https://carbontrade-nine.vercel.app/marketplace" target="_blank" rel="noopener noreferrer" className="text-light">
+                    <NavLink to="/comprar">
                         <button type="button" className="btn btn-outline-warning button-custom-marte">COMPRAR</button>
-                    </a>
+                    </NavLink>
                 </div>
                 <div className="col-lg-6 d-flex flex-column align-items-center">
-                    <a href="https://carbontrade-nine.vercel.app/marketplace" target="_blank" rel="noopener noreferrer" className="text-light">
+                    <NavLink to="/proximamente">
                         <button type="button" className="btn btn-outline-warning button-custom-marte p-4">PROXIMAMENTE: <br/>MARKETPLACE DE NFTS DE BONOS SUSTENTABLES</button>
-                    </a>
+                    </NavLink>
                 </div>
             </div>
             <div className="row">

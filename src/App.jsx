@@ -8,6 +8,7 @@ import TeamScreen from './screens/TeamScreen';
 import RoadmapScreen from './screens/RoadmapScreen';
 import ComprarScreen from './screens/ComprarScreen';
 import MintearScreen from './screens/MintearScreen';
+import ProximamenteScreen from './screens/ProximamenteScreen';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
             <Route path='/ruta' element={<RoadmapScreen/>}/>
             <Route path='/comprar' element={<ComprarScreen/>}/>
             <Route path='/mintear' element={<MintearScreen/>}/>
+            <Route path='/proximamente' element={<ProximamenteScreen/>}/>
           </Routes>
         <FooterComponent/>
       </Router>
