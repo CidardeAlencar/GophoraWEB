@@ -53,9 +53,7 @@ function MintearScreen() {
                     </div>
                   </div>
                   <div className="col-12 d-flex justify-content-center">
-                    {/* <a href="https://www.paypal.com/bo/home" target="_blank" rel="noopener noreferrer" > */}
                       <button type="submit" className="btn btn-outline-warning button-custom-marte">MINTEAR MI MARTE ID</button>
-                    {/* </a> */}
                   </div>
                 </form>
               </div>
