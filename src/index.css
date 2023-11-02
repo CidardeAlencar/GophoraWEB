@@ -286,3 +286,15 @@ option{
     font-size: 0.625rem;
   }
 }
+/* Mintear seccion */
+.custom-responsive-video {
+  width: 100%;
+  height: 500px;
+}
+
+
+@media (max-width: 768px) {
+  .custom-responsive-video {
+    height: 600px;
+  }
+}

@@ -54,9 +54,9 @@ function HomeScreen() {
                     </NavLink>
                   </div>
                   <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center justify-content-lg-start px-0">
-                    <a href="https://carbontrade-nine.vercel.app/marketplace" target="_blank" rel="noopener noreferrer">
+                    <NavLink to="/mintear">
                       <button type="button" className="btn btn-outline-warning button-custom-marte btn-custom py-xxl-5 py-xl-5 py-lg-5">MINTEAR<br/>NFT</button>
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
             </div>
