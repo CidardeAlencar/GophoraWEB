@@ -7,6 +7,7 @@ import FooterComponent from './components/FooterComponent';
 import TeamScreen from './screens/TeamScreen';
 import RoadmapScreen from './screens/RoadmapScreen';
 import ComprarScreen from './screens/ComprarScreen';
+import MintearScreen from './screens/MintearScreen';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route path='/equipo' element={<TeamScreen/>}/>
             <Route path='/ruta' element={<RoadmapScreen/>}/>
             <Route path='/comprar' element={<ComprarScreen/>}/>
+            <Route path='/mintear' element={<MintearScreen/>}/>
           </Routes>
         <FooterComponent/>
       </Router>

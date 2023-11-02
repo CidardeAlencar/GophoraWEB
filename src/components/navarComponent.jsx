@@ -34,7 +34,11 @@ function NavarComponent() {
                     Comprar MARTE ID NFT
                   </NavLink>
                 </li>
-                <li><a className="dropdown-item" href="#">MINTEAR NFT</a></li>
+                <li>
+                  <NavLink to="/mintear" className="dropdown-item">
+                    MINTEAR NFT
+                  </NavLink>
+                </li>
                 <li><hr className="dropdown-divider"/></li>
                 <li className='text-warning'>Criptopurrs</li>
               </ul>
