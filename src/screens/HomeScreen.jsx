@@ -16,7 +16,7 @@ function HomeScreen() {
         </div>
         {/* body */}
         <div className="container">
-          <div className="row d-flex justify-content-center align-items-center mb-3">
+          <div className="row d-flex justify-content-center align-items-center">
             <div className="col-12 col-xl-6">
                 <div>
                     <a href="https://lanzatunombrealespacio.gophora.com/" target="_blank" rel="noopener noreferrer" className="row text-primary justify-content-center hashtag pt-2">
@@ -34,9 +34,9 @@ function HomeScreen() {
                     <img src={marte} alt="Plan marte" className="img-fluid"/>
                   </div>
                 </div>
-                <div className="row">
+                <div className="row mb-1">
                   {/* <div className="col-lg-1 col-md-0"></div> */}
-                  <div className="col-lg-4 col-md-12 bitacora-custom py-2 px-0 d-flex flex-column align-items-center justify-content-center my-sm-2">
+                  <div className="col-lg-4 col-md-12 bitacora-custom py-2 px-0 d-flex flex-column align-items-center justify-content-center">
                     <div>
                     <span className="text-warning">BITACORA DE VIAJE_</span><br/>
                     HORIZONTE DE EXPLORACIÓN, 
@@ -50,7 +50,7 @@ function HomeScreen() {
                   </div>
                   <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center px-0">
                     <NavLink to="/comprar">
-                    <button type="button" className="btn btn-outline-warning button-custom-marte py-xxl-4 py-xl-4 py-lg-5 my-sm-2">Comprar <br/>MARTE ID NFT</button>
+                    <button type="button" className="btn btn-outline-warning button-custom-marte py-xxl-4 py-xl-4 py-lg-5">Comprar <br/>MARTE ID NFT</button>
                     </NavLink>
                   </div>
                   <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center justify-content-lg-start px-0">

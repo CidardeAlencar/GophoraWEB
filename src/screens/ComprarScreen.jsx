@@ -1,6 +1,6 @@
 import marte from "../assets/marteIDNFT.png";
 import backgroundImageN from "../assets/GOPHORASTARSHIPBACKGROUND.png";
-
+import paypal from "../assets/PayPal.png";
 function ComprarScreen() {
   return (
     <section className="home-section font-class d-flex align-items-center">
@@ -13,16 +13,16 @@ function ComprarScreen() {
                   </div>
                   <div className="col-md-6">
                     <label htmlFor="inputNombres" className="form-label text-warning">Nombres<span className="text-danger"> *</span></label>
-                    <input type="text" className="form-control textfield-form" id="inputNombres" placeholder="Cidar Andres" required/>
+                    <input type="text" className="form-control textfield-form" id="inputNombres" placeholder="Neil Alden" required/>
                   </div>
                   <div className="col-md-6">
                     <label htmlFor="inputApellidos" className="form-label text-warning">Apellidos<span className="text-danger"> *</span></label>
-                    <input type="text" className="form-control textfield-form" id="inputApellidos" placeholder="de Alencar Calle" required/>
+                    <input type="text" className="form-control textfield-form" id="inputApellidos" placeholder="Armstrong" required/>
                   </div>
                   <div className="col-12">
                     <label htmlFor="inputEmail" className="form-label text-warning">E-mail<span className="text-danger"> *</span></label><br/>
                     <div className="input-group">
-                        <input type="email" className="form-control textfield-form" id="inputEmail" placeholder="cidarandresdac@gmail.com" required/>
+                        <input type="email" className="form-control textfield-form" id="inputEmail" placeholder="armstrong@gmail.com" required/>
                         <span className="input-group-text textfield-form">
                             <i className="bi bi-envelope"></i>
                         </span>
@@ -30,7 +30,7 @@ function ComprarScreen() {
                 </div>
                   <div className="col-12">
                     <label htmlFor="inputWhatsapp" className="form-label text-warning">Whatsapp<span className="text-danger"> *</span></label>
-                    <input type="text" className="form-control textfield-form" id="inputWhatsapp" placeholder="79564422" required pattern="[0-9]*"/>
+                    <input type="text" className="form-control textfield-form" id="inputWhatsapp" placeholder="73007300" required pattern="[0-9]*"/>
                   </div>
                   <div className="col-12">
                     <label htmlFor="inputCiudad" className="form-label text-warning">Ciudad</label>
@@ -59,14 +59,20 @@ function ComprarScreen() {
                   <div className="col-12">
                     <div className="form-check">
                       <input className="form-check-input" type="checkbox" id="gridCheck" required/>
-                      <label className="form-check-label text-light" htmlFor="gridCheck">
+                      {/* <label className="form-check-label text-light" htmlFor="gridCheck">
                         Acepto los <a href="" className="text-warning">Terminos y Condiciones</a> del servicio de Horizontes Personalizados en GOPHORA y quiero que mi nombre sea parte de la <a href="https://lanzatunombrealespacio.gophora.com/" target="_blank" rel="noopener noreferrer" className="text-warning">Lista QR</a> que va al espacio el 11.11.23
+                      </label> */}
+                      <label className="form-check-label text-light" htmlFor="gridCheck">
+                        Quiero que mi nombre sea parte de la <a href="https://lanzatunombrealespacio.gophora.com/" target="_blank" rel="noopener noreferrer" className="text-warning">Lista QR</a> que va al espacio el 11.11.23
                       </label>
                     </div>
                   </div>
-                  <div className="col-12 d-flex justify-content-center">
+                  <div className="col-12 d-flex justify-content-center my-2">
                     {/* <a href="https://www.paypal.com/bo/home" target="_blank" rel="noopener noreferrer" > */}
-                      <button type="submit" className="btn btn-outline-warning button-custom-marte">Pagar con PayPal</button>
+                      <button type="submit" className="btn btn-outline-warning button-custom-marte">
+                        Pagar con 
+                        <img src={paypal} alt="paypal" className="img-fluid" />
+                      </button>
                     {/* </a> */}
                   </div>
                 </form>
