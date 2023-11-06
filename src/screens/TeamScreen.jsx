@@ -30,19 +30,19 @@ function TeamScreen() {
                 </div>
                 <div className="col">
                     <div className="card h-100 card-background">
-                    <img src={nft3} className="card-img-top" alt="TOMMATOMIC_"/>
+                    <img src={nft4} className="card-img-top" alt="DEALENCAR_"/>
                     <div className="card-body d-flex flex-column justify-content-start align-items-center my-4">
-                        <h5 className="card-title title-font">TOMMATOMIC_</h5>
-                        <p className="card-text text-font">COLABORATOR <br/>FRONTEND<br/> LOGISTICS <br/>BLOCKCHAIN<br/>COO</p>
+                        <h5 className="card-title title-font">DE ALENCAR_</h5>
+                        <p className="card-text text-font">COFOUNDER <br/>WEB, MOBILE<br/> FRONTEND<br/> AR / VR<br/> METAVERSE DEV.<br/>CIO</p>
                     </div>
                     </div>
                 </div>
                 <div className="col">
                     <div className="card h-100 card-background">
-                    <img src={nft4} className="card-img-top" alt="DEALENCAR_"/>
+                    <img src={nft3} className="card-img-top" alt="TOMMATOMIC_"/>
                     <div className="card-body d-flex flex-column justify-content-start align-items-center my-4">
-                        <h5 className="card-title title-font">DE ALENCAR_</h5>
-                        <p className="card-text text-font">COFOUNDER <br/>WEB, MOBILE<br/> FRONTEND<br/> AR / VR<br/> METAVERSE DEV.<br/>CIO</p>
+                        <h5 className="card-title title-font">TOMMATOMIC_</h5>
+                        <p className="card-text text-font">COLABORATOR <br/>FRONTEND<br/> LOGISTICS <br/>BLOCKCHAIN<br/>COO</p>
                     </div>
                     </div>
                 </div>
