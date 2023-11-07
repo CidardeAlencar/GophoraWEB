@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import backgroundImage from "../assets/planetaBackground.png";
 import criptopurrs from "../assets/criptopurrs1.png";
 import luna from "../assets/NFT LUNA.png";
@@ -49,14 +49,14 @@ function HomeScreen() {
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center px-0">
-                    <NavLink to="/comprar">
+                    <Link to="/comprar">
                     <button type="button" className="btn btn-outline-warning button-custom-marte py-xxl-4 py-xl-4 py-lg-5">Comprar <br/>MARTE ID NFT</button>
-                    </NavLink>
+                    </Link>
                   </div>
                   <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center justify-content-lg-start px-0">
-                    <NavLink to="/mintear">
+                    <Link to="/mintear">
                       <button type="button" className="btn btn-outline-warning button-custom-marte btn-custom py-xxl-5 py-xl-5 py-lg-5">MINTEAR<br/>NFT</button>
-                    </NavLink>
+                    </Link>
                   </div>
                 </div>
             </div>
