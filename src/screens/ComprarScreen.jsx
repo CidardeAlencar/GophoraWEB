@@ -28,9 +28,16 @@ function ComprarScreen() {
     e.preventDefault();
     // Muestra los datos del formulario en la consola
     console.log(formData);
+    
+    // Define los encabezados personalizados que deseas enviar con la solicitud
+    const headers = {
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+      //'Authorization': 'Bearer your-token', // Si necesitas autenticación
+    };
 
     // Realiza la solicitud POST utilizando Axios
-    axios.post('https://r3colectaback.herokuapp.com/gophora', formData)
+    axios.post('https://r3colectaback.herokuapp.com/gophora', formData,{headers})
       .then((response) => {
         // Maneja la respuesta exitosa, por ejemplo, muestra un mensaje de éxito
         console.log('Solicitud POST exitosa', response.data);
