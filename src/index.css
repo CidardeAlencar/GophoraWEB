@@ -232,6 +232,15 @@ body {
 .btn-custom:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 87, 51, 0.5); /* Ajusta el color aquí también */
 }
+.img-button {
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  transition: transform 0.2s; /* Agrega una transición suave */
+}
+
+.img-button:hover {
+  transform: scale(1.1); /* Escala la imagen al pasar el cursor para dar un efecto de botón */
+}
+
 /* Product seccion */
 .font-class{
   font-family: 'nusar', sans-serif;

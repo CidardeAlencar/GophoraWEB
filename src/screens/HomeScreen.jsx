@@ -25,13 +25,17 @@ function HomeScreen() {
                 </div>          
                 <div className="row">
                   <div className="col-6 p-0 d-flex justify-content-end">
-                    <img src={luna} alt="Plan luna" className="img-fluid"/>
-                    </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiOc65tu-f_UIUUa00lV8cz3CouQ7gRVeaWh_R52McyPvgXw/viewform" target='_blank' rel='nooppener noreferrer'>
+                      <img src={luna} alt="Plan luna" className="img-fluid img-button"/>
+                    </a>
+                  </div>
                   {/* <div className="col-4 p-0">
                     <img src={tierra} alt="Plan tierra" className="img-fluid"/>
                   </div> */}
                   <div className="col-6 p-0 d-flex justify-content-start">
-                    <img src={marte} alt="Plan marte" className="img-fluid"/>
+                    <Link to="/comprar">
+                      <img src={marte} alt="Plan marte" className="img-fluid img-button"/>
+                    </Link>
                   </div>
                 </div>
                 <div className="row mb-1">
@@ -50,7 +54,7 @@ function HomeScreen() {
                   </div>
                   <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center px-0">
                     <Link to="/comprar">
-                    <button type="button" className="btn btn-outline-warning button-custom-marte py-xxl-4 py-xl-4 py-lg-5">Comprar <br/>MARTE ID NFT</button>
+                      <button type="button" className="btn btn-outline-warning button-custom-marte py-xxl-4 py-xl-4 py-lg-5">Comprar <br/>MARTE ID NFT</button>
                     </Link>
                   </div>
                   <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center justify-content-lg-start px-0">
