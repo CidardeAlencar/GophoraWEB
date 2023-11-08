@@ -41,6 +41,10 @@ function ComprarScreen() {
       .then((response) => {
         // Maneja la respuesta exitosa, por ejemplo, muestra un mensaje de éxito
         console.log('Solicitud POST exitosa', response.data);
+
+        // Redirige al usuario a la URL deseada después de una compra exitosa
+        window.location.href = 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W6DND6DA6AT2U';
+
       })
       .catch((error) => {
         if (error.response) {
