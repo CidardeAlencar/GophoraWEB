@@ -59,7 +59,7 @@ function NavarComponent() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <a href="https://discord.com/invite/NStWHSMQ" target="_blank" rel="noopener noreferrer">
+                <a href="https://discord.com/invite/GauT8YkT" target="_blank" rel="noopener noreferrer">
                   <img src={startship} alt="gophora startship"/>
                 </a>
               </li>
