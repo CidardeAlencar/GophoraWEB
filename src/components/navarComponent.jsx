@@ -64,9 +64,15 @@ function NavarComponent() {
                 </NavLink>
               </li>
               <li className="nav-item">
+<<<<<<< HEAD
                 {/* <a href="https://discord.gg/2Q4NqjVr" target="_blank" rel="noopener noreferrer"> */}
                   <img src={startship} alt="gophora startship" style={{width:'250px'}}/>
                 {/* </a> */}
+=======
+                <a href="https://discord.gg/2Q4NqjVr" target="_blank" rel="noopener noreferrer">
+                  <img src={startship} alt="gophora startship"/>
+                </a>
+>>>>>>> 88848c9867bc54307be845da80d7ddb2d36e432e
               </li>
           </ul>
         </div>
