@@ -21,9 +21,9 @@ function App() {
             <Route path='/productos' element={<ProductsScreen/>}/>
             <Route path='/equipo' element={<TeamScreen/>}/>
             <Route path='/ruta' element={<RoadmapScreen/>}/>
-            <Route path='/comprar' element={<ComprarScreen/>}/>
-            <Route path='/mintear' element={<MintearScreen/>}/>
-            <Route path='/proximamente' element={<ProximamenteScreen/>}/>
+            {/* <Route path='/comprar' element={<ComprarScreen/>}/> */}
+            {/* <Route path='/mintear' element={<MintearScreen/>}/> */}
+            {/* <Route path='/proximamente' element={<ProximamenteScreen/>}/> */}
           </Routes>
         <FooterComponent/>
       </Router>
