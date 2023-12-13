@@ -18,29 +18,35 @@ function HomeScreen() {
         <div className="container">
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-12 col-xl-6">
-                <div>
+                {/* <div>
                     <a href="https://lanzatunombrealespacio.gophora.com/" target="_blank" rel="noopener noreferrer" className="row text-primary justify-content-center hashtag pt-2">
                       #gophoralanzatunombrealespacio
                     </a>
-                </div>          
+                </div>   */}
+
+                <button>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScgc5Gtzrs3qHjWa4qDgfyAQtabUO1jBVG6IGq0qPWroXACmA/viewform" target="_blank" rel="noopener noreferrer" className=" text-primary justify-content-center hashtag pt-2">
+                    ¡Quiero ser parte de GOPHORA STARSHIP!
+                    </a>
+                </button>          
                 <div className="row">
-                  <div className="col-6 p-0 d-flex justify-content-end">
+                  {/* <div className="col-6 p-0 d-flex justify-content-end">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiOc65tu-f_UIUUa00lV8cz3CouQ7gRVeaWh_R52McyPvgXw/viewform" target='_blank' rel='nooppener noreferrer'>
                       <img src={luna} alt="Plan luna" className="img-fluid img-button"/>
                     </a>
-                  </div>
+                  </div> */}
                   {/* <div className="col-4 p-0">
                     <img src={tierra} alt="Plan tierra" className="img-fluid"/>
                   </div> */}
                   <div className="col-6 p-0 d-flex justify-content-start">
-                    <Link to="/comprar">
+                    {/* <Link to="/comprar">
                       <img src={marte} alt="Plan marte" className="img-fluid img-button"/>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
                 <div className="row mb-1">
                   {/* <div className="col-lg-1 col-md-0"></div> */}
-                  <div className="col-lg-4 col-md-12 bitacora-custom py-2 px-0 d-flex flex-column align-items-center justify-content-center">
+                  {/* <div className="col-lg-4 col-md-12 bitacora-custom py-2 px-0 d-flex flex-column align-items-center justify-content-center">
                     <div>
                     <span className="text-warning">BITACORA DE VIAJE_</span><br/>
                     HORIZONTE DE EXPLORACIÓN, 
@@ -51,21 +57,22 @@ function HomeScreen() {
                     <br/><span className="text-warning">TRIPULACIÓN_ </span> 
                     190.
                     </div>
-                  </div>
-                  <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center px-0">
+                  </div> */}
+                  {/* <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center px-0">
                     <Link to="/comprar">
                       <button type="button" className="btn btn-outline-warning button-custom-marte py-xxl-4 py-xl-4 py-lg-5">Comprar <br/>MARTE ID NFT</button>
                     </Link>
-                  </div>
-                  <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center justify-content-lg-start px-0">
+                  </div> */}
+                  {/* <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center justify-content-lg-start px-0">
                     <Link to="/mintear">
                       <button type="button" className="btn btn-outline-warning button-custom-marte btn-custom py-xxl-5 py-xl-5 py-lg-5">MINTEAR<br/>NFT</button>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
             </div>
-            <div className="col-12 col-xl-6 d-flex justify-content-center align-items-center">
-              <img src={criptopurrs} alt="Criptopurrs" className="img-full-height"/>
+            <div style={{paddingTop:"100px"}} className="col-12 col-xl-6 d-flex justify-content-center align-items-center">
+              {/* <img src={criptopurrs} alt="Criptopurrs" className="img-full-height"/> */}
+              <iframe  width="560" height="315" src="https://www.youtube.com/embed/naBS-GcqSs8?si=CnG4XG-exXW8X62M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
         </div>
