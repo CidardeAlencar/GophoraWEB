@@ -124,6 +124,12 @@ body {
   color: #151620;
   background-color: #ffb400;
 }
+.line-custom3{
+  font-family: 'nusar', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffb400;
+}
 @media (max-width: 576px) {
   .line-custom {
       font-size: 0.8em;
@@ -306,4 +312,11 @@ option{
   .custom-responsive-video {
     height: 600px;
   }
+}
+
+.under-construction-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
