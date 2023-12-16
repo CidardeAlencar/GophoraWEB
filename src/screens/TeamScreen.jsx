@@ -64,6 +64,7 @@ function TeamScreen() {
                     <ul className="dropdown-menu">
                         <li><a className="dropdown-item" href="https://drive.google.com/file/d/1Mu2ouE28fEtFczIxXSZmro4KzRAKY3uS/view?usp=sharing" target="_blank" rel="noopener noreferrer">DOCUMENTO DE GOPHORA INC. 1</a></li>
                         <li><a className="dropdown-item" href="https://drive.google.com/file/d/1RXOL353iQVpkUSDE5x1aVS0Ujp8U4fqX/view?usp=sharing" target="_blank" rel="noopener noreferrer">DOCUMENTO DE GOPHORA INC. 2</a></li>
+                        <li><a className="dropdown-item" href="https://drive.google.com/file/d/1o30PIs1DyINSpyuluejHD5qgkQSJ4O66/view?usp=sharing" target="_blank" rel="noopener noreferrer">GOPHORA</a></li>
                         {/* <li><a className="dropdown-item" href="#">Action three</a></li> */}
                     </ul>
                 </div>

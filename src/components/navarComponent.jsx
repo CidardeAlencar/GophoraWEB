@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import logo from "../assets/logo.png";
-import startship from "../assets/startship.jpg";
+import startship from "../assets/GOPHORASTARSHIP.png";
 
 function NavarComponent() {
   return (
