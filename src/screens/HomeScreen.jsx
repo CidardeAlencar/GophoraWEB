@@ -33,11 +33,11 @@ function HomeScreen() {
 
             <p>GOPHORA INC. es una startup constituida en Florida USA, el 5 de Octubre de 2020 desde Bolivia, a través del programa Founder Institute de Silicon Valley.</p>
 
-            <p>Compartimos Network con startups como Uber, AirBNB, Udemy. Tenemos acceso a apoyo de Instituciones aliadas del FI como la Estación Espacial Internacional entre otras que están construyendo nuestro camino hacia la exploración de Marte y el espacio.</p>
+            <p>Compartimos Network con startups como Uber, AirBNB, Udemy. Tenemos acceso a apoyo de Instituciones aliadas del <a href="https://www.fi.co" target="_blank" rel="noopener noreferrer" className="text-warning">FI</a> como la Estación Espacial Internacional entre otras que están construyendo nuestro camino hacia la exploración de Marte y el espacio.</p>
 
             <p>Visnity es hasta ahora la primera Fundadora Boliviana en lograr este hito.</p>
 
-            <p>En 2023 GOPHORA comienza a construirse sobre Blockchain para entregar las llaves digitales GOPHORA de acceso a GOPHORA STARSHIP.</p>
+            <p>En 2023 GOPHORA comienza a construirse sobre Blockchain para entregar las llaves digitales GOPHORA <span className="text-warning">NFT</span> COLLECTIBLES de acceso a GOPHORA STARSHIP.</p>
 
             <br/><p>“Desarrollamos el GESTOR DE OPORTUNIDAD Y PERCEPCIÓN HUMANA ONLINE nuestra misión es rescatar el talento y la contribución humana para dirigirlos a la exploración del espacio.”</p>
           </div>

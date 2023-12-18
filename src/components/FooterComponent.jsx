@@ -4,7 +4,7 @@ function FooterComponent() {
         <div className="row">
             <div className="col-12 col-md-6 text-light text-center font-class">
                 {/* Todos los derechos reservados  */}
-                Construyendo GOPHORA.com <i className="bi bi-heart-fill text-danger"></i> desde La Paz, BO | Florida USA
+                <p>Construyendo GOPHORA con <i className="bi bi-heart-fill text-danger"></i> desde La Paz, BO | Florida, USA</p>
             </div>
             {/* <div className="col-12 col-md-3 text-light text-center font-class">
                 GOPHORA INC.
