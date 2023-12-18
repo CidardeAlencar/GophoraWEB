@@ -246,7 +246,10 @@ body {
 .img-button:hover {
   transform: scale(1.1); /* Escala la imagen al pasar el cursor para dar un efecto de botón */
 }
-
+.custom-third-container {
+  height: 600px;
+  background-color: red;
+}
 /* Product seccion */
 .font-class{
   font-family: 'nusar', sans-serif;
