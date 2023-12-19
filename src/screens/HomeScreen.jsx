@@ -5,7 +5,7 @@
 // import tierra from "../assets/NFT TIERRA.png";
 // import marte from "../assets/NFT MARTE.png";
 // import team from "../assets/team1.png";
-import gophora from "../assets/GOPHORASTARSHIP2.png";
+import gophora from "../assets/gophora.png";
 import sign from "../assets/Visnity.png";
 function HomeScreen() {
   return (
@@ -19,7 +19,7 @@ function HomeScreen() {
           Horizontes Personalizados de Experiencia, Trabajo y Educación Potenciados por I.A. + Evidencia de Habilidad Excepcional sobre Blockchain 
         </div> */}
         <div className="text-center">
-          <img src={gophora} alt="gophora startship" className="img-fluid" />
+          <img src={gophora} alt="Gophora" className="img-fluid" />
         </div>
         
         <div className="container">
@@ -37,7 +37,7 @@ function HomeScreen() {
 
             <p>Visnity es hasta ahora la primera Fundadora Boliviana en lograr este hito.</p>
 
-            <p>En 2023 GOPHORA comienza a construirse sobre Blockchain para entregar las llaves digitales GOPHORA <span className="text-warning">NFT</span> COLLECTIBLES de acceso a GOPHORA STARSHIP.</p>
+            <p>En 2023 GOPHORA comienza a construirse sobre Blockchain para entregar las llaves digitales <a href="https://forms.gle/vwzrF3Fxe3Lb7RnC9" target="_blank" rel="noopener noreferrer" className="text-light">GOPHORA <span className="text-warning">NFT</span> COLLECTIBLES</a> de acceso a GOPHORA STARSHIP.</p>
 
             <br/><p>“Desarrollamos el GESTOR DE OPORTUNIDAD Y PERCEPCIÓN HUMANA ONLINE nuestra misión es rescatar el talento y la contribución humana para dirigirlos a la exploración del espacio.”</p>
           </div>
