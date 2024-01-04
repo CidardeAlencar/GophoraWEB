@@ -1,5 +1,9 @@
 // import { Link } from 'react-router-dom';
 import backgroundImage from "../assets/GOPHORASTARSHIPBUTTON3.png";
+import firstPage from "../assets/firstPage.png";
+import firstPage1 from "../assets/firstPage1.png";
+import firstPage2 from "../assets/firstPage2.png";
+import qr from "../assets/qr.png";
 // import criptopurrs from "../assets/criptopurrs1.png";
 // import luna from "../assets/NFT LUNA.png";
 // import tierra from "../assets/NFT TIERRA.png";
@@ -7,21 +11,71 @@ import backgroundImage from "../assets/GOPHORASTARSHIPBUTTON3.png";
 import logo from "../assets/logo.png";
 import team from "../assets/team1.png";
 import gophora from "../assets/GOPHORASTARSHIP2.png";
+import { useEffect, useRef } from 'react';
 function HomeScreen() {
+  const image1Ref = useRef();
+  const image2Ref = useRef();
+  const image3Ref = useRef();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const image1 = image1Ref.current;
+      const image2 = image2Ref.current;
+      const image3 = image3Ref.current;
+
+      if (image1 && image2 && image3) {
+        const top1 = image1.getBoundingClientRect().top;
+        const top2 = image2.getBoundingClientRect().top;
+        const top3 = image3.getBoundingClientRect().top;
+
+        const windowHeight = window.innerHeight;
+
+        if (top1 < windowHeight * 0.75) {
+          image1.classList.add('appear');
+        }
+
+        if (top2 < windowHeight * 0.75) {
+          image2.classList.add('appear');
+        }
+
+        if (top3 < windowHeight * 0.75) {
+          image3.classList.add('appear');
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     // <section className="home-section" style={{ backgroundImage: `url(${backgroundImage})` }}>
     <section className="home-section">
         <div className="container-fluid d-flex flex-column justify-content-center p-0">
-          <div className="text-center">
-          <div className="line-custom py-1">
-            EXPANDIMOS LOS HORIZONTES DE LO POSIBLE, Conectamos toda voluntad con la Exploración Espacial
-          </div>
-          <div className="line-custom2 py-1">
-            Horizontes Personalizados de Experiencia, Trabajo y Educación Potenciados por I.A. + Evidencia de Habilidad Excepcional sobre Blockchain 
-          </div>
-        </div>
+          {/* <div className="text-center">
+            <div className="line-custom py-1">
+              EXPANDIMOS LOS HORIZONTES DE LO POSIBLE, Conectamos toda voluntad con la Exploración Espacial
+            </div>
+            <div className="line-custom2 py-1">
+              Horizontes Personalizados de Experiencia, Trabajo y Educación Potenciados por I.A. + Evidencia de Habilidad Excepcional sobre Blockchain 
+            </div>
+          </div> */}
         
         {/* body */}
+          
+        {/* body primera parte */}
+        <div className="container min-vh-100 d-flex flex-column align-items-center justify-content-center ">
+          <img ref={image1Ref} src={firstPage1} alt="Our team" className="first-page-image d-md-none py-4"/>
+          <img ref={image2Ref} src={firstPage2} alt="Our team" className="first-page-image d-md-none"/>
+          <img ref={image3Ref} src={firstPage} alt="Our team" className="first-page-image d-none d-md-block"/>
+          <p className="font-class text-light first-page-text p-5">Nuestros <span className="text-warning">NFTs</span> funcionan como una llave digital de acceso de por vida a la
+            GOPHORA STARSHIP. ¡El PREEMBARQUE está abierto!
+          </p>
+        </div>
+        {/* body segunda parte */}
+        <div className="container d-flex align-items-center justify-content-center p-5">
+          <img src={qr} alt="Our team" className="img-fluid"/>
+        </div>
         <div className="container-fluid">
           <div className="row d-flex justify-content-center align-items-center">
             {/* <div className="col-12 my-4"> */}
@@ -84,8 +138,8 @@ function HomeScreen() {
               <div style={{ position: "relative", width: "100%", paddingTop: "56.25%" }}>
                 <iframe
                   style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
-                  src="https://www.youtube.com/embed/naBS-GcqSs8?si=CnG4XG-exXW8X62M"
-                  title="YouTube video player"
+                  src="https://drive.google.com/file/d/1XA6njTrxpSPv8aMTuKcFsAZZdHag1EBL/preview"
+                  title="Google Drive video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                 ></iframe>
@@ -145,7 +199,7 @@ function HomeScreen() {
             </div>
             <div className="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center font-class">
                 <h1 className="text-light mb-5">Holders: 250 </h1>
-                <a href="https://drive.google.com/file/d/1Mu2ouE28fEtFczIxXSZmro4KzRAKY3uS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://forms.gle/vwzrF3Fxe3Lb7RnC9" target="_blank" rel="noopener noreferrer">
                   <h3 className="text-warning">Unirme Ahora</h3>
                 </a>
                 
