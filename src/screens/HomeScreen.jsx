@@ -206,6 +206,17 @@ function HomeScreen() {
             </div>
           </div>
         </div>
+        {/* <div className="container">
+          <p className="text-light text-justify font-class">La misión de la herramienta GOPHORA STARSHIP es entregar horizontes personalizados a sus tripulantes en trabajo, educación y experiencias Hobbies que desde la vida diaria desarrollen su potencial de contribución y legado en la exploración espacial.
+          <br/>Todos son importantes para lograr ser sustentables y sostenibles en nuevos horizontes,, GOPHORA rescata el talento y la voluntad humana y la conecta con la exploración de nuevos horizontes.
+          <br/>GOPHORA INC. es una startup constituida en Florida USA, el 5 de Octubre de 2020 desde Bolivia, a través del programa Founder Institute de Silicon Valley.
+          <br/>Compartimos Network con startups como Uber, AirBNB, Udemy. Tenemos acceso a apoyo de Instituciones aliadas del FI como la Estación Espacial Internacional entre otras que están construyendo nuestro camino hacia la exploración de Marte y el espacio.
+          <br/>Visnity es hasta ahora la primera Fundadora Boliviana en lograr este hito.
+          <br/>En 2023 GOPHORA comienza a construirse sobre Blockchain para entregar las llaves digitales GOPHORA de acceso a GOPHORA STARSHIP.
+          <br/><br/>“Desarrollamos el GESTOR DE OPORTUNIDAD Y PERCEPCIÓN HUMANA ONLINE nuestra misión es rescatar el talento y la contribución humana para dirigirlos a la exploración del espacio.” 
+          </p>
+        </div> */}
+        
       </div>
     </section>
   )

@@ -4,13 +4,12 @@ function FooterComponent() {
         <div className="row">
             <div className="col-12 col-md-6 text-light text-center font-class">
                 {/* Todos los derechos reservados  */}
-                HECHO CON <i className="bi bi-heart-fill text-danger"></i> EN  LA PAZ, BO | FLORIDA USA
+                <p>Construyendo GOPHORA con <i className="bi bi-heart-fill text-danger"></i> desde La Paz, BO | Florida, USA</p>
             </div>
-            <div className="col-12 col-md-3 text-light text-center font-class">
-                {/* Todos los derechos reservados  */}
+            {/* <div className="col-12 col-md-3 text-light text-center font-class">
                 GOPHORA INC.
-            </div>
-            <div className="col-12 col-md-3 d-flex justify-content-evenly align-items-center">
+            </div> */}
+            <div className="col-12 col-md-6 d-flex justify-content-evenly align-items-center">
                 <a href="https://www.instagram.com/gophoranftcollectibles/" target="_blank" rel="noopener noreferrer">
                     <i className="bi bi-instagram"></i>
                 </a>
