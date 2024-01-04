@@ -1,14 +1,14 @@
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import logo from "../assets/logo.png";
-import startship from "../assets/GOPHORASTARSHIP.png";
+// import startship from "../assets/GOPHORASTARSHIP.png";
 
 function NavarComponent() {
   return (
     <nav className="navbar navbar-expand-lg "data-bs-theme="dark">
     <div className="container-fluid">
-        <NavLink className="navbar-brand ms-3" to="/">
+        <a className="navbar-brand ms-3" href="#">
             <img className="custom-logo" src={logo} alt="Gophora icon"/>
-        </NavLink>
+        </a>
         <div className="me-3">
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -43,29 +43,55 @@ function NavarComponent() {
                 <li className='text-warning'>Criptopurrs</li> */}
               </ul>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink to="/" className="nav-link my-nav-link">
                   INICIO
                 </NavLink>
+              </li> */}
+              <li className="nav-item">
+                <a href="#" className="nav-link my-nav-link active">
+                  INICIO
+                </a>
               </li>
               <li className="nav-item">
+                <a href="#nft" className="nav-link my-nav-link">
+                  <span className="text-warning">NFT</span> 
+                  COLLECTIBLES
+                </a>
+              </li>
+              {/* <li className="nav-item">
                 <NavLink to="/ruta" className="nav-link my-nav-link">
                   ROADMAP
                 </NavLink>
+              </li> */}
+              <li className="nav-item">
+                <a href="#roadmap" className="nav-link my-nav-link">
+                ROADMAP
+                </a>
               </li>
               {/* <li className="nav-item">
                 <NavLink to="/productos" className="nav-link my-nav-link">
                   PRODUCTOS
                 </NavLink>
               </li> */}
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink to="/equipo" className="nav-link my-nav-link">
                   TEAM
                 </NavLink>
-              </li>
+              </li> */}
               <li className="nav-item">
+                <a href="#team" className="nav-link my-nav-link">
+                  TEAM
+                </a>
+              </li>
+              {/* <li className="nav-item">
                 <a href="https://discord.gg/2Q4NqjVr" target="_blank" rel="noopener noreferrer">
                   <img src={startship} alt="gophora startship" style={{width:'250px'}}/>
+                </a>
+              </li> */}
+              <li className="nav-item">
+                <a href="#" className="nav-link my-nav-link">
+                  <span className="text-warning">Conectar Wallet</span> 
                 </a>
               </li>
           </ul>

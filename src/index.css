@@ -68,6 +68,9 @@ button:focus-visible {
   }
 } */
 /* Estilos generales */
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   background-color: black;
@@ -105,11 +108,18 @@ body {
   }  
 }
 
-
+.my-nav-link {
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+.my-nav-link:hover {
+  opacity: 0.8;
+}
 .my-nav-link.active {
   border-bottom: 2px solid #ffb400;
   color: white;
 }
+
 /* lineas debajo de navbar */
 .line-custom{
   font-family: 'nusar', sans-serif;
@@ -246,7 +256,26 @@ body {
 .img-button:hover {
   transform: scale(1.1); /* Escala la imagen al pasar el cursor para dar un efecto de botón */
 }
+.custom-third-container {
+  height: 600px;
+  background-color: red;
+}
+.first-page-image{
+  width: 95vw;
+  opacity: 0;
+  transform: translateY(20px); /* O cualquier transformación que desees */
 
+  /* Agregar transición suave */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.first-page-image.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+.first-page-text{
+  max-width: 50rem;
+  text-align: center;
+}
 /* Product seccion */
 .font-class{
   font-family: 'nusar', sans-serif;
