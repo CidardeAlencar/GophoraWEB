@@ -1,16 +1,18 @@
 // import { Link } from 'react-router-dom';
-import backgroundImage from "../assets/GOPHORASTARSHIPBUTTON3.png";
+// import backgroundImage from "../assets/GOPHORASTARSHIPBUTTON3.png";
 import firstPage from "../assets/firstPage.png";
 import firstPage1 from "../assets/firstPage1.png";
 import firstPage2 from "../assets/firstPage2.png";
 import qr from "../assets/qr.png";
+import qrglobe from "../assets/qrglobe.png";
+import qrandglobe from "../assets/qrandglobe.png";
 // import criptopurrs from "../assets/criptopurrs1.png";
 // import luna from "../assets/NFT LUNA.png";
 // import tierra from "../assets/NFT TIERRA.png";
 // import marte from "../assets/NFT MARTE.png";
-import logo from "../assets/logo.png";
-import team from "../assets/team1.png";
-import gophora from "../assets/GOPHORASTARSHIP2.png";
+// import logo from "../assets/logo.png";
+// import team from "../assets/team1.png";
+// import gophora from "../assets/GOPHORASTARSHIP2.png";
 import { useEffect, useRef } from 'react';
 function HomeScreen() {
   const image1Ref = useRef();
@@ -73,8 +75,10 @@ function HomeScreen() {
           </p>
         </div>
         {/* body segunda parte */}
-        <div className="container d-flex align-items-center justify-content-center p-5">
-          <img src={qr} alt="Our team" className="img-fluid"/>
+        <div className="container d-flex flex-column align-items-center justify-content-center p-5">
+              <img src={qr} alt="Our team" className="img-fluid d-md-none"/>
+              <img src={qrglobe} alt="Our team" className="img-fluid d-md-none"/>
+              <img src={qrandglobe} alt="Our team" className="img-fluid d-none d-md-block"/>
         </div>
         <div className="container-fluid">
           <div className="row d-flex justify-content-center align-items-center">
@@ -138,7 +142,7 @@ function HomeScreen() {
               <div style={{ position: "relative", width: "100%", paddingTop: "56.25%" }}>
                 <iframe
                   style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
-                  src="https://drive.google.com/file/d/1XA6njTrxpSPv8aMTuKcFsAZZdHag1EBL/preview"
+                  src="https://drive.google.com/file/d/1geiLfvac36_PAKVqskkZQ5WI19d2Lnc6/preview"
                   title="Google Drive video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
@@ -147,7 +151,7 @@ function HomeScreen() {
             </div>
           </div>
         </div>
-        <div className='container my-5'>
+        {/* <div className='container my-5'>
           <div className="row d-flex justify-content-center align-items-center">
             <div className='col-12 col-md-6'>
               <div className="text-center">
@@ -162,7 +166,6 @@ function HomeScreen() {
                   <ul className="dropdown-menu">
                       <li><a className="dropdown-item" href="https://drive.google.com/file/d/1Mu2ouE28fEtFczIxXSZmro4KzRAKY3uS/view?usp=sharing" target="_blank" rel="noopener noreferrer">DOCUMENTO DE GOPHORA INC. 1</a></li>
                       <li><a className="dropdown-item" href="https://drive.google.com/file/d/1RXOL353iQVpkUSDE5x1aVS0Ujp8U4fqX/view?usp=sharing" target="_blank" rel="noopener noreferrer">DOCUMENTO DE GOPHORA INC. 2</a></li>
-                      {/* <li><a className="dropdown-item" href="https://drive.google.com/file/d/1o30PIs1DyINSpyuluejHD5qgkQSJ4O66/view?usp=sharing" target="_blank" rel="noopener noreferrer">GOPHORA</a></li> */}
                   </ul>
               </div>
             </div>
@@ -187,9 +190,9 @@ function HomeScreen() {
                 </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <div className="container-fluid mx-5" style={{ height: "900px", backgroundImage: `url(${backgroundImage})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", objectFit: "cover"}}> */}
-        <div className="container-fluid p-5">
+        {/* <div className="container-fluid p-5">
           <div className="row h-100">
             <div className="col-12 col-md-4">
               <img src={gophora} alt="Our team" className="img-fluid"/>
@@ -205,7 +208,7 @@ function HomeScreen() {
                 
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <div className="container">
           <p className="text-light text-justify font-class">La misión de la herramienta GOPHORA STARSHIP es entregar horizontes personalizados a sus tripulantes en trabajo, educación y experiencias Hobbies que desde la vida diaria desarrollen su potencial de contribución y legado en la exploración espacial.
           <br/>Todos son importantes para lograr ser sustentables y sostenibles en nuevos horizontes,, GOPHORA rescata el talento y la voluntad humana y la conecta con la exploración de nuevos horizontes.
