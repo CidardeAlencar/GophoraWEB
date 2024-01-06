@@ -1,6 +1,8 @@
 import nft1 from "../assets/nft1.png";
 import bs from "../assets/bs.png";
 import mt from "../assets/matic.png";
+import OpenSea from "../assets/opensea.png";
+import gophora from "../assets/GOPHORASTARSHIP.png";
 function NFTcollectibles() {
   return (
     <section id="nft" className="d-flex flex-column justify-content-center align-items-center">
@@ -14,9 +16,12 @@ function NFTcollectibles() {
           DISPONIBLES
         </h2>
         <div className="container d-flex justify-content-center">
-          <div className="card m-3 card-nft text-light font-class rounded-5">
+          <div className="card m-3 card-nft text-light font-class rounded-5 p-4">
             <div className="row g-0">
               <h3 className="card-title text-warning text-center p-3">CRIPTOPURR MARTE ID NFT</h3>
+              <div className="col-md-4">
+                <img src={nft1} className="img-fluid rounded" alt="..."/>
+              </div>
               <div className="col-md-8 d-flex">
                 <div className="card-body d-flex flex-column align-items-center justify-content-center">
                   <h4 className="card-text text-center p-3">200 ediciones x NFT</h4>
@@ -28,19 +33,26 @@ function NFTcollectibles() {
                   </ul>
                   <h5 className="card-title text-warning">PRECIO:</h5>
                   <p className="card-text">
-                    <small>
-                      50 Bolivianos 
+                      50 Bolivianos     
                       <img src={bs} className="img-fluid" alt="moneda boliviana" style={{maxWidth:'50px'}}/>
                       <span className="text-warning"> o </span> 
-                      10 MATIC
+                      10 MATIC 
                       <img src={mt} className="img-fluid" alt="matic" style={{maxWidth:'50px'}}/>
-                    </small>
                   </p>
                 </div>
-              </div>
-              <div className="col-md-4">
-                <img src={nft1} className="img-fluid rounded" alt="..."/>
-              </div>
+              </div> 
+            </div>
+            <div className="overlay">
+                <p>COMPRAR EN:</p>
+                <div className="iconos-contenedor">
+                    {/* <p>GOPHORA</p> */}
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                      <img src={gophora} className="img-fluid" alt="matic" style={{maxWidth:'200px'}}/>
+                    </a>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                      <img src={OpenSea} className="img-fluid p-3" alt="matic" style={{maxWidth:'100px'}}/>
+                    </a>
+                </div>
             </div>
           </div>
         </div>
