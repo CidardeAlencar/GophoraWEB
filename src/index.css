@@ -349,3 +349,43 @@ option{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* nft seccion */
+.card-nft{
+  max-width: 900px;
+  background-color: rgba(217, 217, 217, 0.1);
+  /* border-radius: 5%; */
+  padding: 3rem;
+  border: solid 4px #FC0;
+  /* cursor: pointer; */
+  transition: box-shadow 0.3s ease; 
+
+  &:hover {
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 1); 
+  }
+}
+.overlay{
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.card{
+  position: relative;
+}
+.overlay p{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.card:hover .overlay{
+  opacity: 1;
+} 
+.card:hover .row{
+  opacity: 0.2  ;
+} 
+.overlay .iconos-contenedor{
+  display: flex;
+}
