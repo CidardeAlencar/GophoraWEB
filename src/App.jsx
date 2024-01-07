@@ -5,10 +5,10 @@ import HomeScreen from './screens/HomeScreen'
 import NFTcollectibles from './screens/NFTcollectibles'
 // import ProductsScreen from './screens/ProductsScreen'
 import FooterComponent from './components/FooterComponent';
-// import TeamScreen from './screens/TeamScreen';
-// import RoadmapScreen from './screens/RoadmapScreen';
-// import ComprarScreen from './screens/ComprarScreen';
-// import MintearScreen from './screens/MintearScreen';
+import TeamScreen from './screens/TeamScreen';
+import RoadmapScreen from './screens/RoadmapScreen';
+import ComprarScreen from './screens/ComprarScreen';
+import MintearScreen from './screens/MintearScreen';
 // import ProximamenteScreen from './screens/ProximamenteScreen';
 
 function App() {
@@ -19,6 +19,10 @@ function App() {
         <NavarComponent/>
         <HomeScreen/>
         <NFTcollectibles/>
+        <RoadmapScreen/>
+        <TeamScreen/>
+        <ComprarScreen/>
+        <MintearScreen/>
           {/* <Routes> */}
             {/* <Route path='/' exact element={<HomeScreen/>}/> */}
             {/* <Route path='/productos' element={<ProductsScreen/>}/> */}
