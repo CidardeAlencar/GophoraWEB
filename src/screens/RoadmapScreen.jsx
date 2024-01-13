@@ -1,9 +1,14 @@
-
+import { useState } from 'react';
 import check from "../assets/check.png";
 // import backgroundImage from "../assets/ROADMAP.png";
 function RoadmapScreen() {
+  const [isSectionVisible, setSectionVisibility] = useState(false);
+
+  const handleToggleVisibility = () => {
+    setSectionVisibility(!isSectionVisible);
+  };
   return (
-    <section className="home-section font-class font-sizesm my-5">
+    <section className="home-section font-class font-sizesm my-5" id="roadmap">
     {/* <section className="home-section" style={{ backgroundImage: `url(${backgroundImage})` }}> */}
       <div className="container d-flex flex-column align-items-center">
         {/* <div className="row">
@@ -35,7 +40,9 @@ function RoadmapScreen() {
           </div>
         </div>
       </div> */}
-      <h1 className="text-warning mb-5">ROADMAP</h1>
+      <h1 className="text-warning mb-5 desplegar" onClick={handleToggleVisibility}>ROADMAP</h1>
+      {isSectionVisible && (
+      <div>
       <div className="row d-flex align-items-center mb-5">
           <div className="col-4 text-center">
             <h3 className="text-warning">Objetivo:</h3>
@@ -127,6 +134,8 @@ function RoadmapScreen() {
             <p className="text-light text-center">Escalar y expandir la solución GOPHORA STARSHIP a paises de Latinoamérica, Norte América, Europa y África. </p>
           </div>
       </div>
+      </div>
+      )}
     </div>
 
     </section>
