@@ -8,7 +8,7 @@ import FooterComponent from './components/FooterComponent';
 import TeamScreen from './screens/TeamScreen';
 import RoadmapScreen from './screens/RoadmapScreen';
 // import ComprarScreen from './screens/ComprarScreen';
-import MintearScreen from './screens/MintearScreen';
+// import MintearScreen from './screens/MintearScreen';
 // import ProximamenteScreen from './screens/ProximamenteScreen';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <RoadmapScreen/>
         <TeamScreen/>
         {/* <ComprarScreen/> */}
-        <MintearScreen/>
+        {/* <MintearScreen/> */}
           {/* <Routes> */}
             {/* <Route path='/' exact element={<HomeScreen/>}/> */}
             {/* <Route path='/productos' element={<ProductsScreen/>}/> */}
