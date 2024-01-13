@@ -389,3 +389,12 @@ option{
 .overlay .iconos-contenedor{
   display: flex;
 }
+/* desplegables */
+.desplegar{
+  cursor: pointer;
+  transition: text-shadow 0.3s, transform 0.3s;;
+}
+.desplegar:hover {
+  text-shadow: 0 0 5px white;
+  transform: scale(1.1);
+}
