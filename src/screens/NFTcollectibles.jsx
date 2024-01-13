@@ -1,7 +1,7 @@
 import nft1 from "../assets/nft1.png";
 import nft2 from "../assets/nft2.png";
 import nft3 from "../assets/nft3.png";
-
+import ComprarScreen from '../components/ComprarScreen'
 import NFTCards from '../components/nftCards'
 
 function NFTcollectibles() {
@@ -63,7 +63,7 @@ function NFTcollectibles() {
               <div style={{ position: "relative", width: "100%", paddingTop: "56.25%" }}>
                 <iframe
                   style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
-                  src="https://drive.google.com/file/d/1geiLfvac36_PAKVqskkZQ5WI19d2Lnc6/preview"
+                  src="https://drive.google.com/file/d/16gu75RxbMBrJIigcQsgJqQAiUESbdxeB/preview"
                   title="Google Drive video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
@@ -75,6 +75,8 @@ function NFTcollectibles() {
           ¡Super!, ya tienes una dirección de Ethereum, ahora tienes que llenar el <span className="text-warning">FORMULARIO DE PREEMBARQUE</span>, este es un Formulario de Pre-venta que te conectará directamente con nuestro departamento comercial, el cuál te ayudará a terminar el proceso de compra de tu NFT, puedes pagar en efectivo con transferencia QR o con Criptomonedas directamente de tu billetera cripto.
         </p>
         {/* aÑADIR Formulario */}
+        <ComprarScreen/>
+        {/*  */}
         <p className="text-light text-center font-class w-75 p-5">
           ¡Genial!, Ya que procesaste el pago con un agente de nuestro departamento comercial, revisa tu billetera cripto, en la sección de NFT, debería aparecer tu CRIPTOPURR MARTE ID o CRIP´TOPURR EA, para revisar los detalles de la transacción puedes verla en OpenSea, logueándote con tu billetera cripto en opensea.com. 
         </p>
@@ -85,7 +87,7 @@ function NFTcollectibles() {
           Tu nombre será añadido al QR que lanzamos al espacio el 11.11.23, y ahora formas parte de GOPHORA STARSHIP, guarda bien tu NFT por que es tu acceso a todo el ecosistema GOPHORA.
         </p>
         {/* EXPERIENCIAS */}
-        <h1 className="text-light font-class p-5">
+        <h1 className="text-warning font-class p-5">
             CICLOS DE EXPERIENCIA GOHORA
         </h1>
         <p className="text-light text-center font-class w-75">Participa de los Ciclos de Experiencia de nuestro concierge MVP, y gana NFTs, merchandising, descuentos, y mucho más.</p>
@@ -103,16 +105,18 @@ function NFTcollectibles() {
             HOBBIES
         </h1>
         <p className="text-light text-center font-class w-75">Quieres saber más, ingresa tu correo y te mandaremos más información</p>
-        <div className="">
-        <form className="row">
-          <div className="col-auto">
-            <label htmlFor="inputPassword2" className="visually-hidden">Correo electronico</label>
-            <input type="email" className="form-control" id="inputPassword2" placeholder="Correo electronico"/>
-          </div>
-          <div className="col-auto">
-            <button type="submit" className="btn btn-warning mb-3">SUSCRIBIME</button>
-          </div>
-        </form>
+        <div className="w-50">
+          <form className="row">
+            <div className="col-2"></div>
+            <div className="col-12 col-md-6 p-2">
+              <label htmlFor="inputPassword2" className="visually-hidden">Correo electronico</label>
+              <input type="email" className="form-control" id="inputPassword2" placeholder="Correo electronico"/>
+            </div>
+            <div className="col-12 col-md-2 p-2 text-center">
+              <button type="submit" className="btn btn-warning mb-3">SUSCRIBIME</button>
+            </div>
+            <div className="col-2"></div>
+          </form>
         </div>    
     </section>
     
