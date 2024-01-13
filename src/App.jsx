@@ -7,7 +7,7 @@ import NFTcollectibles from './screens/NFTcollectibles'
 import FooterComponent from './components/FooterComponent';
 import TeamScreen from './screens/TeamScreen';
 import RoadmapScreen from './screens/RoadmapScreen';
-import ComprarScreen from './screens/ComprarScreen';
+// import ComprarScreen from './screens/ComprarScreen';
 import MintearScreen from './screens/MintearScreen';
 // import ProximamenteScreen from './screens/ProximamenteScreen';
 
@@ -21,7 +21,7 @@ function App() {
         <NFTcollectibles/>
         <RoadmapScreen/>
         <TeamScreen/>
-        <ComprarScreen/>
+        {/* <ComprarScreen/> */}
         <MintearScreen/>
           {/* <Routes> */}
             {/* <Route path='/' exact element={<HomeScreen/>}/> */}
