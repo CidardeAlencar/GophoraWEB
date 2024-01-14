@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import backgroundImage from "../assets/ABE.png";
 // import nft1 from "../assets/1.png";
 // import nft2 from "../assets/2.png";
@@ -5,13 +6,19 @@ import backgroundImage from "../assets/ABE.png";
 // import nft4 from "../assets/4.png";
 // import nft5 from "../assets/5.png";
 function TeamScreen() {
+    const [isSectionVisible, setSectionVisibility] = useState(false);
+
+  const handleToggleVisibility = () => {
+    setSectionVisibility(!isSectionVisible);
+  };
   return (
     // <section className="home-section font-class d-flex flex-column justify-content-end" style={{ backgroundImage: `url(${backgroundImage})`,minHeight: "100vh" }}>
-    <section className="font-class d-flex flex-column justify-content-center align-items-center">
-        <h1 className="text-warning mb-5 desplegar">TEAM</h1>
-        
+    <section className="font-class d-flex flex-column justify-content-center align-items-center" id="team">
+        <h1 className="text-warning mb-5 desplegar" onClick={handleToggleVisibility}>TEAM</h1>
+        {isSectionVisible && (
+            
         <div className="container my-2">
-            <img src={backgroundImage} alt="team" className="img-fluid" />
+            <img src={backgroundImage} alt="team" className="img-fluid"/>
             {/* <h1 className="text-warning mb-5">TEAM</h1> */}
             <h3 className="text-warning p-5">Founders</h3>
             <div className="row row-cols-1  row-cols-sm-2 row-cols-md-4 g-3">
@@ -105,6 +112,7 @@ function TeamScreen() {
                 </div>
             </div>
         </div>
+        )}
     </section>
   )
 }
