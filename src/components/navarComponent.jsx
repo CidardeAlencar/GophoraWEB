@@ -90,8 +90,8 @@ function NavarComponent() {
                 </a>
               </li> */}
               <li className="nav-item">
-                <a href="#" className="nav-link my-nav-link">
-                  <span className="text-warning">Conectar Wallet</span> 
+                <a href="#preguntas" className="nav-link my-nav-link">
+                  <span className="text-warning">FAQ</span> 
                 </a>
               </li>
           </ul>
