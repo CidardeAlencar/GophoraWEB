@@ -8,6 +8,7 @@ import FooterComponent from './components/FooterComponent';
 import TeamScreen from './screens/TeamScreen';
 import RoadmapScreen from './screens/RoadmapScreen';
 import PreguntasScreen from './screens/PreguntasScreen';
+import SociosScreen from './screens/SociosScreen';
 // import ComprarScreen from './screens/ComprarScreen';
 // import MintearScreen from './screens/MintearScreen';
 // import ProximamenteScreen from './screens/ProximamenteScreen';
@@ -23,6 +24,7 @@ function App() {
         <RoadmapScreen/>
         <TeamScreen/>
         <PreguntasScreen/>
+        <SociosScreen/>
         {/* <ComprarScreen/> */}
         {/* <MintearScreen/> */}
           {/* <Routes> */}
