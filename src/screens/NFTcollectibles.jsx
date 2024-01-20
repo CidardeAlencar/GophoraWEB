@@ -9,7 +9,8 @@ function NFTcollectibles() {
   return (
     <section id="nft" className="d-flex flex-column justify-content-center align-items-center">
         <h1 className="text-light font-class p-5">
-            <span className="text-warning">NFT </span> COLLECTIBLES
+            {/* <span className="text-warning">NFT </span> */}
+             MEMBRESIAS
         </h1>
         <p className="text-light text-center font-class w-75 pb-5">
           {/* *Obtén tu acceso directamente desde GOPHORA antes que se agote nuestro suministro limitado de NFTs para tu país y tengas que ir a OpenSea o adquirir un plan de pago por suscripción.”  */}
@@ -119,14 +120,14 @@ function NFTcollectibles() {
         </p>
         {/* EXPERIENCIAS */}
         <h1 className="text-warning font-class p-5">
-            CICLOS DE EXPERIENCIA GOHORA
+            CICLOS DE EXPERIENCIA GOPHORA
         </h1>
         <p className="text-light text-center font-class w-75">Participa de los Ciclos de Experiencia de nuestro concierge MVP, y gana NFTs, merchandising, descuentos, y mucho más.</p>
 
         <p className="text-light text-center font-class w-75">Si eres Holder de los GOPHORA NFT COLLECTIBLES, emitiremos los horizontes de experiencia VIp a través de nuestro canal privado de Discord, dale link al siguiente enlace y logueate con tu NFT.</p>
 
         <p className="text-primary text-center font-class w-75">discord..invitacion.com</p>
-        <h1 className="text-warning font-class p-5">
+        {/* <h1 className="text-warning font-class p-5">
             TRABAJO
         </h1>
         <h1 className="text-warning font-class p-5">
@@ -134,7 +135,7 @@ function NFTcollectibles() {
         </h1>
         <h1 className="text-warning font-class p-5">
             HOBBIES
-        </h1>
+        </h1> */}
         <p className="text-light text-center font-class w-75">Quieres saber más, ingresa tu correo y te mandaremos más información</p>
         <div className="w-50">
           <form className="row">

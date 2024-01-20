@@ -4,8 +4,8 @@ import firstPage from "../assets/firstPage.png";
 import firstPage1 from "../assets/firstPage1.png";
 import firstPage2 from "../assets/firstPage2.png";
 import qr from "../assets/qr.png";
-// import qrglobe from "../assets/qrglobe.png";
-// import qrandglobe from "../assets/qrandglobe.png";
+import qrglobe from "../assets/qrglobe.png";
+import qrandglobe from "../assets/qrandglobe.png";
 // import criptopurrs from "../assets/criptopurrs1.png";
 // import luna from "../assets/NFT LUNA.png";
 // import tierra from "../assets/NFT TIERRA.png";
@@ -78,11 +78,11 @@ function HomeScreen() {
           </div>
         </div>
         {/* body segunda parte */}
-        {/* <div className="container d-flex flex-column align-items-center justify-content-center p-5">
+        <div className="container d-flex flex-column align-items-center justify-content-center p-5">
               <img src={qr} alt="Our team" className="img-fluid d-md-none"/>
               <img src={qrglobe} alt="Our team" className="img-fluid d-md-none"/>
               <img src={qrandglobe} alt="Our team" className="img-fluid d-none d-md-block"/>
-        </div> */}
+        </div>
 
         <div className="container-fluid">
           <div className="row d-flex justify-content-center align-items-center">
