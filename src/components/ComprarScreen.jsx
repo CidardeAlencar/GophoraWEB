@@ -62,13 +62,13 @@ function ComprarScreen() {
 
   return (
     <section className="home-section font-class d-flex align-items-center">
-        <div className="container w-75">
+        <div className="container w-75 card-nft rounded-5">
             <div className="row">
               <div className="col-12"style={{ backgroundImage: `url(${backgroundImageN}) no-repeat center center fixed`, backgroundSize: 'cover' }}>
                 <form className="row g-3" onSubmit={handleSubmit}>
                   <div className="col-12">
                     {/* <h1 className="text-warning text-center">MARTE ID NFT</h1> */}
-                    <h1 className="text-warning text-center">FORMULARIO DE PREEMBARQUE</h1>
+                    <h2 className="text-warning text-center">FORMULARIO DE PREEMBARQUE</h2>
                   </div>
                   <div className="col-md-6">
                     <label htmlFor="inputNombres" className="form-label text-warning">Nombres<span className="text-danger"> *</span></label>
