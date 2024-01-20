@@ -273,7 +273,7 @@ body {
   transform: translateY(0);
 }
 .first-page-text{
-  max-width: 50rem;
+  max-width: 40rem;
   text-align: center;
 }
 /* Product seccion */

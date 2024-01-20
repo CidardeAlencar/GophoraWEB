@@ -71,7 +71,7 @@ function HomeScreen() {
           <img ref={image2Ref} src={firstPage2} alt="Our team" className="first-page-image d-md-none"/>
           <img ref={image3Ref} src={firstPage} alt="Our team" className="first-page-image d-none d-md-block"/>
           <div className="d-flex flex-column justify-content-center align-items-center">
-            <p className="font-class text-light first-page-text pt-5">Nuestros <span className="text-warning">NFTs</span> funcionan como una llave digital de acceso de por vida a la
+            <p className="font-class text-light first-page-text pt-5">Nuestras membresías incluyen una <span className="text-warning">llave digital</span> de acceso a la
               GOPHORA STARSHIP. ¡El PREEMBARQUE está abierto!
             </p>
             <img src={qr} alt="Our team" className="img-fluid" style={{maxWidth:'100px'}}/>
