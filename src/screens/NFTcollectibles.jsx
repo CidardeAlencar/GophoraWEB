@@ -8,7 +8,7 @@ import NFTCards2 from "../components/nftCards2";
 function NFTcollectibles() {
   return (
     <section id="nft" className="d-flex flex-column justify-content-center align-items-center">
-        <h1 className="text-light font-class p-5">
+        <h1 className="text-warning font-class p-5">
             {/* <span className="text-warning">NFT </span> */}
              MEMBRESIAS
         </h1>
@@ -16,7 +16,7 @@ function NFTcollectibles() {
           {/* *Obtén tu acceso directamente desde GOPHORA antes que se agote nuestro suministro limitado de NFTs para tu país y tengas que ir a OpenSea o adquirir un plan de pago por suscripción.”  */}
           *Obtén tu acceso directamente desde GOPHORA antes que tengas que adquirir un plan de pago por suscripción.” 
         </p>
-        <h2 className="font-class text-warning my-3">
+        <h2 className="font-class my-3 text-center font-2">
           {/* DISPONIBLES */}
           {/* Accesos para Tripulantes */}
           ACCESOS PARA TRIPULANTES
@@ -42,6 +42,19 @@ function NFTcollectibles() {
           l7="1/200 acceso digital en forma de NFT a GOPHORA STARSHIP"
           l8="MARTE ID NFT de temporada con beneficios exclusivos para el holder y características especiales."
         />
+        <NFTCards2
+          nftImage={nft2}
+          title="TRIPULANTE MARTE ID"
+          stitle="10 $us. / Anual"
+          l1="Nombre del tripulante en QR del lanzamiento espacial."
+          l2="Descuento en talleres y capacitaciones de interés del Ecosistema GOPHORA."
+          l3="Descuento en productos de empresas afiliadas a GOPHORA."
+          l4="Descuento en accesorios para experiencia GOPHORA."
+          l5="Acceso a oportunidades inmediatas de trabajo del ecosistema GOPHORA."
+          l6="Acceso a experiencias de hobbies y eventos del ecosistema de GOPHORA."
+          l7="1/200 acceso digital en forma de NFT a GOPHORA STARSHIP"
+          l8="MARTE ID NFT de temporada con beneficios exclusivos para el holder y características especiales."
+        />
         {/* <NFTCards 
           nftImage={nft1}
           title="CRIPTOPURR MARTE ID NFT"
@@ -53,7 +66,7 @@ function NFTcollectibles() {
           pb="10"
           pm="14"
         /> */}
-        <NFTCards 
+        {/* <NFTCards 
           nftImage={nft2}
           title="CRIPTOPURR (EA) EARLY ADOPTER NFT"
           stitle="25 ediciones x NFT"
@@ -63,8 +76,8 @@ function NFTcollectibles() {
           l4="Acceso a Metaverso GOPHORA."
           pb="80"
           pm="112"
-        />
-        <h2 className="font-class text-warning my-5">
+        /> */}
+        <h2 className="font-class font-2 my-5">
           {/* DISPONIBLES */}
           {/* Accesos para Tripulantes */}
           ACCESOS PARA EMPRESAS

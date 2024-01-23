@@ -71,17 +71,19 @@ function HomeScreen() {
           <img ref={image2Ref} src={firstPage2} alt="Our team" className="first-page-image d-md-none"/>
           <img ref={image3Ref} src={firstPage} alt="Our team" className="first-page-image d-none d-md-block"/>
           <div className="d-flex flex-column justify-content-center align-items-center">
-            <p className="font-class text-light first-page-text pt-5">Nuestras membresías incluyen una <span className="text-warning">llave digital</span> de acceso a la
+            <p className="font-class text-light first-page-text py-5 my-5">Nuestras membresías incluyen una <span className="text-warning">llave digital</span> de acceso a la
               GOPHORA STARSHIP. ¡El PREEMBARQUE está abierto!
             </p>
-            <img src={qr} alt="Our team" className="img-fluid" style={{maxWidth:'100px'}}/>
+            {/* <img src={qr} alt="Our team" className="img-fluid" style={{maxWidth:'100px'}}/> */}
           </div>
         </div>
         {/* body segunda parte */}
-        <div className="container d-flex flex-column align-items-center justify-content-center p-5">
-              <img src={qr} alt="Our team" className="img-fluid d-md-none"/>
-              <img src={qrglobe} alt="Our team" className="img-fluid d-md-none"/>
-              <img src={qrandglobe} alt="Our team" className="img-fluid d-none d-md-block"/>
+        <div className="container d-flex flex-column align-items-center justify-content-center p-5 mb-5">
+          <div className="">
+            <img src={qr} alt="Our team" className="img-fluid d-md-none"/>
+            <img src={qrglobe} alt="Our team" className="img-fluid d-md-none"/>
+            <img src={qrandglobe} alt="Our team" className="img-fluid d-none d-md-block"/>
+          </div>
         </div>
 
         <div className="container-fluid">
@@ -142,7 +144,6 @@ function HomeScreen() {
                 </div>
             </div>
             <div className="col-12 d-flex justify-content-center align-items-center p-0">
-              {/* <img src={criptopurrs} alt="Criptopurrs" className="img-full-height"/> */}
               <div style={{ position: "relative", width: "100%", paddingTop: "56.25%" }}>
                 <iframe
                   style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}

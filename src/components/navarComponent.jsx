@@ -95,8 +95,8 @@ function NavarComponent() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#preguntas" className="nav-link my-nav-link">
-                  <span className="text-warning">HAZTE TRIPULANTE</span> 
+                <a href="#preguntas" className="nav-link my-nav-link2">
+                  Ir a la STARSHIP
                 </a>
               </li>
           </ul>

@@ -9,33 +9,33 @@ function NFTCards2(props) {
     <div className="container d-flex justify-content-center align-items-center">
         <div className="card m-3 card-nft text-light font-class rounded-5 p-4">
             <div className="row g-0">
-            <h3 className="card-title text-warning text-center p-3">{title}</h3>
-            <div className="col-md-4 d-flex justify-content-center align-items-center">
-                <img src={nftImage} className="img-fluid rounded" alt="..."/>
-            </div>
-            <div className="col-md-8 d-flex">
-                <div className="card-body d-flex flex-column align-items-center justify-content-center">
-                    <h4 className="card-text text-center p-3">{stitle}</h4>
-                    <ul>
-                        <li>{l1}</li>
-                        <li>{l2}</li>
-                        <li>{l3}</li>
-                        <li>{l4}</li>
-                        {l5 && <li>{l5}</li>}
-                        {l6 && <li>{l6}</li>}
-                        {l7 && <li>{l7}</li>}
-                        {l8 && <li>{l8}</li>}
-                    </ul>
-                    {/* <h5 className="card-title text-warning">PRECIO:</h5>
-                    <p className="card-text">
-                        {pb} Bolivianos     
-                        <img src={bs} className="img-fluid" alt="moneda boliviana" style={{maxWidth:'50px'}}/>
-                        <span className="text-warning"> o </span> 
-                        {pm} MATIC 
-                        <img src={mt} className="img-fluid" alt="matic" style={{maxWidth:'50px'}}/>
-                    </p> */}
+                <h3 className="card-title text-center p-3">{title}</h3>
+                <div className="col-md-4 d-flex justify-content-center align-items-center">
+                    <img src={nftImage} className="img-fluid rounded" alt="..."/>
                 </div>
-            </div> 
+                <div className="col-md-8 d-flex">
+                    <div className="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h4 className="card-text text-center p-3">{stitle}</h4>
+                        <ul>
+                            <li>{l1}</li>
+                            <li>{l2}</li>
+                            <li>{l3}</li>
+                            <li>{l4}</li>
+                            {l5 && <li>{l5}</li>}
+                            {l6 && <li>{l6}</li>}
+                            {l7 && <li>{l7}</li>}
+                            {l8 && <li>{l8}</li>}
+                        </ul>
+                        {/* <h5 className="card-title text-warning">PRECIO:</h5>
+                        <p className="card-text">
+                            {pb} Bolivianos     
+                            <img src={bs} className="img-fluid" alt="moneda boliviana" style={{maxWidth:'50px'}}/>
+                            <span className="text-warning"> o </span> 
+                            {pm} MATIC 
+                            <img src={mt} className="img-fluid" alt="matic" style={{maxWidth:'50px'}}/>
+                        </p> */}
+                    </div>
+                </div> 
             </div>
             <div className="overlay">
                 <p>COMPRAR EN:</p>
