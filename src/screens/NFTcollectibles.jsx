@@ -3,20 +3,59 @@ import nft2 from "../assets/nft2.png";
 import nft3 from "../assets/nft3.png";
 import ComprarScreen from '../components/ComprarScreen'
 import NFTCards from '../components/nftCards'
+import NFTCards2 from "../components/nftCards2";
 
 function NFTcollectibles() {
   return (
     <section id="nft" className="d-flex flex-column justify-content-center align-items-center">
-        <h1 className="text-light font-class p-5">
-            <span className="text-warning">NFT </span> COLLECTIBLES
+        <h1 className="text-warning font-class p-5">
+            {/* <span className="text-warning">NFT </span> */}
+             MEMBRESIAS
         </h1>
         <p className="text-light text-center font-class w-75 pb-5">
-            *Obtén tu acceso directamente desde GOPHORA antes que se agote nuestro suministro limitado de NFTs para tu país y tengas que ir a OpenSea o adquirir un plan de pago por suscripción.” 
+          {/* *Obtén tu acceso directamente desde GOPHORA antes que se agote nuestro suministro limitado de NFTs para tu país y tengas que ir a OpenSea o adquirir un plan de pago por suscripción.”  */}
+          *Obtén tu acceso directamente desde GOPHORA antes que tengas que adquirir un plan de pago por suscripción.” 
         </p>
-        <h2 className="font-class text-warning">
-          DISPONIBLES
+        <h2 className="font-class my-3 text-center font-2">
+          {/* DISPONIBLES */}
+          {/* Accesos para Tripulantes */}
+          ACCESOS PARA TRIPULANTES
         </h2>
-        <NFTCards 
+        {/* Nombre del tripulante en QR del lanzamiento espacial.
+        Descuento en talleres y capacitaciones de interés del Ecosistema GOPHORA.
+        Descuento en productos de empresas afiliadas a GOPHORA.
+        Descuento en accesorios para experiencia GOPHORA.
+        Acceso a oportunidades inmediatas de trabajo del ecosistema GOPHORA.
+        Acceso a experiencias de hobbies y eventos del ecosistema de GOPHORA.
+        1/200 acceso digital en forma de NFT a GOPHORA STARSHIP 
+        MARTE ID NFT de temporada con beneficios exclusivos para el holder y características especiales. */}
+        <NFTCards2
+          nftImage={nft1}
+          title="TRIPULANTE MARTE ID"
+          stitle="10 $us. / Anual"
+          l1="Nombre del tripulante en QR del lanzamiento espacial."
+          l2="Descuento en talleres y capacitaciones de interés del Ecosistema GOPHORA."
+          l3="Descuento en productos de empresas afiliadas a GOPHORA."
+          l4="Descuento en accesorios para experiencia GOPHORA."
+          l5="Acceso a oportunidades inmediatas de trabajo del ecosistema GOPHORA."
+          l6="Acceso a experiencias de hobbies y eventos del ecosistema de GOPHORA."
+          l7="1/200 acceso digital en forma de NFT a GOPHORA STARSHIP"
+          l8="MARTE ID NFT de temporada con beneficios exclusivos para el holder y características especiales."
+        />
+        <NFTCards2
+          nftImage={nft2}
+          title="TRIPULANTE MARTE ID"
+          stitle="10 $us. / Anual"
+          l1="Nombre del tripulante en QR del lanzamiento espacial."
+          l2="Descuento en talleres y capacitaciones de interés del Ecosistema GOPHORA."
+          l3="Descuento en productos de empresas afiliadas a GOPHORA."
+          l4="Descuento en accesorios para experiencia GOPHORA."
+          l5="Acceso a oportunidades inmediatas de trabajo del ecosistema GOPHORA."
+          l6="Acceso a experiencias de hobbies y eventos del ecosistema de GOPHORA."
+          l7="1/200 acceso digital en forma de NFT a GOPHORA STARSHIP"
+          l8="MARTE ID NFT de temporada con beneficios exclusivos para el holder y características especiales."
+        />
+        {/* <NFTCards 
           nftImage={nft1}
           title="CRIPTOPURR MARTE ID NFT"
           stitle="200 ediciones x NFT"
@@ -24,10 +63,10 @@ function NFTcollectibles() {
           l2="Nombre en QR modulo espacial."
           l3="10% Descuento de por vida en accesorios GOPHORA."
           l4="Acceso a evento anual GOPHORA."
-          pb="50"
-          pm="10"
-        />
-        <NFTCards 
+          pb="10"
+          pm="14"
+        /> */}
+        {/* <NFTCards 
           nftImage={nft2}
           title="CRIPTOPURR (EA) EARLY ADOPTER NFT"
           stitle="25 ediciones x NFT"
@@ -35,9 +74,14 @@ function NFTcollectibles() {
           l2="Nombre en QR modulo espacial."
           l3="30% Descuento de por vida en accesorios GOPHORA."
           l4="Acceso a Metaverso GOPHORA."
-          pb="50"
-          pm="10"
-        />
+          pb="80"
+          pm="112"
+        /> */}
+        <h2 className="font-class font-2 my-5">
+          {/* DISPONIBLES */}
+          {/* Accesos para Tripulantes */}
+          ACCESOS PARA EMPRESAS
+        </h2>
         <NFTCards 
           nftImage={nft3}
           title="CRIPTOPURR INVESTOR"
@@ -47,12 +91,13 @@ function NFTcollectibles() {
           l3="50% Descuento de por vida en accesorios GOPHORA."
           l4="Acceso a Metaverso GOPHORA."
           l5="1 Land para negocio GOPHORA VR."
-          pb="50"
-          pm="10"
+          pb="2000"
+          pm="2800"
         />
         {/* GUIA */}
         <h1 className="text-light font-class p-5">
-            GUÍA PARA COMPRAR UN <span className="text-warning">NFT </span> GOPHORA
+            {/* GUÍA PARA COMPRAR UN <span className="text-warning">NFT </span> GOPHORA */}
+            GUÍA PARA RECIBIR UN ACCESO DIGITAL <span className="text-warning">NFT </span> GOPHORA
         </h1>
         <p className="text-light text-center font-class w-75 p-5">
         Descarga una billetera cripto, puede ser Metamask o Coinbase WALLET, si ya tienes una ¡perfecto! solo asegúrate que tengas una dirección de Ethereum a la cual se te podamos mandar tus GOPHORA NFT COLLECTIBLES CRIPTOPURRS MARTE ID o CRIPTOPURRS EA.
@@ -72,7 +117,7 @@ function NFTcollectibles() {
             </div>
         </div>
         <p className="text-light text-center font-class w-75 p-5">
-          ¡Super!, ya tienes una dirección de Ethereum, ahora tienes que llenar el <span className="text-warning">FORMULARIO DE PREEMBARQUE</span>, este es un Formulario de Pre-venta que te conectará directamente con nuestro departamento comercial, el cuál te ayudará a terminar el proceso de compra de tu NFT, puedes pagar en efectivo con transferencia QR o con Criptomonedas directamente de tu billetera cripto.
+          ¡Super!, ya tienes una dirección de Ethereum, ahora tienes que llenar el <span className="text-warning">FORMULARIO DE PREEMBARQUE</span>, este es un Formulario de Pre-venta que te conectará directamente con nuestro departamento comercial, el cuál te ayudará a terminar el proceso de compra de tu NFT, puedes pagar en efectivo con transferencia QR
         </p>
         {/* aÑADIR Formulario */}
         <ComprarScreen/>
@@ -88,14 +133,14 @@ function NFTcollectibles() {
         </p>
         {/* EXPERIENCIAS */}
         <h1 className="text-warning font-class p-5">
-            CICLOS DE EXPERIENCIA GOHORA
+            CICLOS DE EXPERIENCIA GOPHORA
         </h1>
         <p className="text-light text-center font-class w-75">Participa de los Ciclos de Experiencia de nuestro concierge MVP, y gana NFTs, merchandising, descuentos, y mucho más.</p>
 
         <p className="text-light text-center font-class w-75">Si eres Holder de los GOPHORA NFT COLLECTIBLES, emitiremos los horizontes de experiencia VIp a través de nuestro canal privado de Discord, dale link al siguiente enlace y logueate con tu NFT.</p>
 
         <p className="text-primary text-center font-class w-75">discord..invitacion.com</p>
-        <h1 className="text-warning font-class p-5">
+        {/* <h1 className="text-warning font-class p-5">
             TRABAJO
         </h1>
         <h1 className="text-warning font-class p-5">
@@ -103,7 +148,7 @@ function NFTcollectibles() {
         </h1>
         <h1 className="text-warning font-class p-5">
             HOBBIES
-        </h1>
+        </h1> */}
         <p className="text-light text-center font-class w-75">Quieres saber más, ingresa tu correo y te mandaremos más información</p>
         <div className="w-50">
           <form className="row">

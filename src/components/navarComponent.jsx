@@ -55,8 +55,8 @@ function NavarComponent() {
               </li>
               <li className="nav-item">
                 <a href="#nft" className="nav-link my-nav-link">
-                  <span className="text-warning">NFT</span> 
-                  COLLECTIBLES
+                  MEMBRESIAS
+                  {/* <span className="text-warning">NFT</span>  */}
                 </a>
               </li>
               {/* <li className="nav-item">
@@ -91,7 +91,12 @@ function NavarComponent() {
               </li> */}
               <li className="nav-item">
                 <a href="#preguntas" className="nav-link my-nav-link">
-                  <span className="text-warning">FAQ</span> 
+                  FAQ 
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#preguntas" className="nav-link my-nav-link2">
+                  Ir a la STARSHIP
                 </a>
               </li>
           </ul>
