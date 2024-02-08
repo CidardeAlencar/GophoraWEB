@@ -14,7 +14,11 @@ function TeamScreen() {
   return (
     // <section className="home-section font-class d-flex flex-column justify-content-end" style={{ backgroundImage: `url(${backgroundImage})`,minHeight: "100vh" }}>
     <section className="font-class d-flex flex-column justify-content-center align-items-center" id="team">
-        <h1 className="text-warning mb-5 desplegar" onClick={handleToggleVisibility}>TEAM</h1>
+        <h1 className="text-warning mb-5 desplegar" onClick={handleToggleVisibility}>
+            TEAM
+            {isSectionVisible && (<i className="bi bi-caret-up"></i>)}
+            {!isSectionVisible && (<i className="bi bi-caret-down"></i>)}
+        </h1>
         {isSectionVisible && (
             
         <div className="container my-2">

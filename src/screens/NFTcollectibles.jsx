@@ -12,10 +12,18 @@ function NFTcollectibles() {
             {/* <span className="text-warning">NFT </span> */}
              MEMBRESIAS
         </h1>
-        <p className="text-light text-center font-class w-75 pb-5">
-          {/* *Obtén tu acceso directamente desde GOPHORA antes que se agote nuestro suministro limitado de NFTs para tu país y tengas que ir a OpenSea o adquirir un plan de pago por suscripción.”  */}
-          *Obtén tu acceso directamente desde GOPHORA antes que tengas que adquirir un plan de pago por suscripción.” 
-        </p>
+        <div className="text-light d-flex justify-content-center font-class w-75 pb-5">
+              <ul>
+                <li>Nombre en QR Espacial.</li>
+                <li>Horizontes de Trabajo ilimitados.</li>
+                <li>Horizontes de Educación ilimitados.</li>
+                <li>Horizontes de Experiencias hobbies ilimitados.</li>
+                <li>(Próximamente) 20% de descuento en accesorios para experiencia GOPHORA AR/VR.</li>
+                <li>(Próximamente) Contribución sobre Blockchain.</li>
+                <li>(Próximamente) Acceso a Metaverso GOPHORA.</li>
+              </ul>
+        </div>
+
         <h2 className="font-class my-3 text-center font-2">
           {/* DISPONIBLES */}
           {/* Accesos para Tripulantes */}
@@ -95,16 +103,20 @@ function NFTcollectibles() {
           pm="2800"
         />
         {/* GUIA */}
-        <h1 className="text-light font-class p-5">
+        <h1 className="text-warning font-class p-5">
             {/* GUÍA PARA COMPRAR UN <span className="text-warning">NFT </span> GOPHORA */}
             GUÍA PARA RECIBIR UN ACCESO DIGITAL <span className="text-warning">NFT </span> GOPHORA
         </h1>
         <p className="text-light text-center font-class w-75 p-5">
-        Descarga una billetera cripto, puede ser Metamask o Coinbase WALLET, si ya tienes una ¡perfecto! solo asegúrate que tengas una dirección de Ethereum a la cual se te podamos mandar tus GOPHORA NFT COLLECTIBLES CRIPTOPURRS MARTE ID o CRIPTOPURRS EA.
+          Descarga una billetera cripto, puede ser Metamask o Coinbase WALLET, si ya tienes una ¡perfecto! solo asegúrate que tengas una dirección de Ethereum a la cual se te podamos mandar tus GOPHORA NFT COLLECTIBLES CRIPTOPURRS MARTE ID o CRIPTOPURRS EA.
         </p>
-        <div className="container-fluid p-0">
+        <button className="font-class nav-link my-nav-link2 p-3 fs-1">
+          <a href="https://drive.google.com/file/d/16gu75RxbMBrJIigcQsgJqQAiUESbdxeB/preview" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+            Ver Video
+          </a>
+        </button>
+        {/* <div className="container-fluid p-0">
           <div className="col-12 d-flex justify-content-center align-items-center p-0">
-              {/* <img src={criptopurrs} alt="Criptopurrs" className="img-full-height"/> */}
               <div style={{ position: "relative", width: "100%", paddingTop: "56.25%" }}>
                 <iframe
                   style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
@@ -115,11 +127,16 @@ function NFTcollectibles() {
                 ></iframe>
               </div>
             </div>
-        </div>
+        </div> */}
         <p className="text-light text-center font-class w-75 p-5">
           ¡Super!, ya tienes una dirección de Ethereum, ahora tienes que llenar el <span className="text-warning">FORMULARIO DE PREEMBARQUE</span>, este es un Formulario de Pre-venta que te conectará directamente con nuestro departamento comercial, el cuál te ayudará a terminar el proceso de compra de tu NFT, puedes pagar en efectivo con transferencia QR
         </p>
         {/* aÑADIR Formulario */}
+        <button className="font-class nav-link my-nav-link2 p-3 fs-1">
+          <a href="https://drive.google.com/file/d/16gu75RxbMBrJIigcQsgJqQAiUESbdxeB/preview" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+            Formulario
+          </a>
+        </button>
         <ComprarScreen/>
         {/*  */}
         <p className="text-light text-center font-class w-75 p-5">

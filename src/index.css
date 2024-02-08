@@ -290,7 +290,7 @@ body {
   transform: translateY(0);
 }
 .first-page-text{
-  max-width: 40rem;
+  max-width: 100rem;
   text-align: center;
 }
 /* Product seccion */
