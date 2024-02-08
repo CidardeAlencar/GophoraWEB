@@ -13,10 +13,18 @@ function PreguntasScreen() {
   return (
     <section className="home-section font-class font-sizesm my-5" id="preguntas">
         <div className="container d-flex flex-column align-items-center">
-            <h1 className="text-warning mb-5 desplegar" onClick={() => handleToggleVisibility('preguntasFrecuentes')}>Preguntas Frecuentes</h1>
+            <h1 className="text-warning mb-5 desplegar" onClick={() => handleToggleVisibility('preguntasFrecuentes')}>
+              Preguntas Frecuentes
+              {expandedSections['preguntasFrecuentes'] && (<i className="bi bi-caret-up"></i>)}
+              {!expandedSections['preguntasFrecuentes'] && (<i className="bi bi-caret-down"></i>)}
+              </h1>
               {expandedSections['preguntasFrecuentes'] && (
               <div>
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('quienesSomos')}>¿Quiénes somos?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('quienesSomos')}>
+                  ¿Quiénes somos?
+                  {expandedSections['quienesSomos'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['quienesSomos'] && (<i className="bi bi-caret-down"></i>)}
+                </h3>
                   {expandedSections['quienesSomos'] && (
                   <div className='d-flex flex-column mb-5 text-light'>
                       <p>Bienvenidos a GOPHORA INC., una innovadora startup con base en Florida, EE. UU., fundada el 5 de Octubre de 2020 en Santa Cruz de la Sierra, Bolivia, a través del distinguido programa virtual del Founder Institute de Silicon Valley.</p>
@@ -33,7 +41,11 @@ function PreguntasScreen() {
                       <img src={gophoraTeam} alt="gophora team" className='img-fluid'  />
                   </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta2')}>¿Qué es y que contiene el QR que enviamos al espacio el 11.11.23?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta2')}>
+                  ¿Qué es y que contiene el QR que enviamos al espacio el 11.11.23?
+                  {expandedSections['pregunta2'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta2'] && (<i className="bi bi-caret-down"></i>)}
+                </h3>
                   {expandedSections['pregunta2'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                         <p></p>El QR que subimos el 11.11.23 en un modulo que llevaba 5 experimentos al espacio es un reconocimiento a los holders de los GOPHORA NFT COLLECTIBLES, es un símbolo de que ellos ahora son parte de la siguiente generación de exploradores que colaboran desde 
@@ -44,7 +56,11 @@ function PreguntasScreen() {
                         <p></p>Es la primera vez en la historia en que todos los NO ASTRONAUTAS tenemos la oportunidad de acoplarnos desde nuestra vida diaria a la exploración espacial.
                     </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta3')}>¿Cuál es la visión Macro de GOPHORA?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta3')}>
+                  ¿Cuál es la visión Macro de GOPHORA?
+                  {expandedSections['pregunta3'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta3'] && (<i className="bi bi-caret-down"></i>)}
+                </h3>
                   {expandedSections['pregunta3'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                       <p></p>En GOPHORA, creamos un futuro donde la exploración se convierte en una experiencia única y personalizada para cada individuo.
@@ -57,7 +73,11 @@ function PreguntasScreen() {
                       <p></p>GOPHORA no solo es una plataforma; es un movimiento que a los holders y tripulantes nos define cómo exploradores. 
                     </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta4')}>¿Qué son los GOPHORA NFT COLLECTIBLES?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta4')}>
+                  ¿Qué son los GOPHORA NFT COLLECTIBLES?
+                  {expandedSections['pregunta4'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta4'] && (<i className="bi bi-caret-down"></i>)}
+                </h3>
                   {expandedSections['pregunta4'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                         <p></p>Los GOPHORA NFT Collectibles son llaves digitales de acceso temprano al ecosistema GOPHORA. 
@@ -68,7 +88,11 @@ function PreguntasScreen() {
                         <p></p> Los GOPHORA NFT Collectibles no solo son identificativos digitales de los intrépidos, innovadores, curiosos miembros de la siguiente generación de exploradores, sino que ofrecen un pasaporte exclusivo a un mundo de oportunidades dentro de GOPHORA, fusionando la propiedad digital con experiencias únicas y perpetuas en la exploración del espacio y el crecimiento personal.
                     </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta5')}>¿Qué significa ser Holder de uno de los NFT´s de GOPHORA?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta5')}>
+                  ¿Qué significa ser Holder de uno de los NFT´s de GOPHORA?
+                  {expandedSections['pregunta5'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta5'] && (<i className="bi bi-caret-down"></i>)}
+                </h3>
                   {expandedSections['pregunta5'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                         <p></p>Ser holder de un GOPHORA NFT Collectible significa que eres el propietario de un Token No Fungible (NFT) específico emitido por GOPHORA Inc. Un NFT representa la propiedad única y verificable de un activo digital, en este caso, un GOPHORA NFT Collectible.
@@ -84,7 +108,11 @@ function PreguntasScreen() {
                         </ol>
                     </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta6')}>¿Qué son los Criptopurrs?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta6')}>
+                  ¿Qué son los Criptopurrs?
+                  {expandedSections['pregunta6'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta6'] && (<i className="bi bi-caret-down"></i>)}
+                </h3>
                   {expandedSections['pregunta6'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                       <p></p>Los GOPHORA NFT Collectibles: Criptopurrs MARTE ID, Criptopurrs EA o Criptopurrs Investor son activos digitales únicos y coleccionables basados en la tecnología de tokens no fungibles (NFT). 
@@ -96,7 +124,11 @@ function PreguntasScreen() {
                       <p></p>Al adquirir un Criptopurr de GOPHORA, los usuarios no solo obtienen una llave  digital exclusiva, sino que también se convierten en parte de la narrativa y la evolución de GOPHORA, contribuyendo a su misión de trascender los límites de la exploración y la vida en otros mundos.
                     </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta7')}>¿Qué utilidad tiene el NFT MARTE ID?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta7')}>
+                  ¿Qué utilidad tiene el NFT MARTE ID?
+                  {expandedSections['pregunta7'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta7'] && (<i className="bi bi-caret-down"></i>)}
+                </h3>
                 {expandedSections['pregunta7'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                       <p></p>Los CRIPTOPURRS MARTE ID representan accesos digitales exclusivos a la GOPHORA STARSHIP, diseñados para los niveles 1 y 2.
@@ -107,7 +139,11 @@ function PreguntasScreen() {
                       <p></p>Con la capacidad de combinar estas oportunidades de manera única, cada tripulante puede obtener un resultado personalizado que potencie su crecimiento y desarrollo.
                     </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta8')}>¿Qué utilidad tiene el NFT CRIPTOPURR EA?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta8')}>
+                  ¿Qué utilidad tiene el NFT CRIPTOPURR EA?
+                  {expandedSections['pregunta8'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta8'] && (<i className="bi bi-caret-down"></i>)}
+                </h3>
                 {expandedSections['pregunta8'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                       <p></p>Los CRIPTOPURRS EA representan accesos digitales más exclusivos a la GOPHORA STARSHIP, diseñados para los niveles 3 y 4.
@@ -117,7 +153,11 @@ function PreguntasScreen() {
                       <p></p>Aquí, la experiencia es totalmente automática y no requiere la destreza del tripulante como piloto. Esta modalidad proporciona combinaciones de experiencia inmediatas, y también le brinda al tripulante acceso a horizontes a medida del tripulante holder para  obtener un resultado personalizado que potencie su crecimiento y desarrollo.
                     </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta9')}>¿Cómo puedo comprar uno de los NFTs de GOPHORA?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta9')}>
+                  ¿Cómo puedo comprar uno de los NFTs de GOPHORA?
+                  {expandedSections['pregunta9'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta9'] && (<i className="bi bi-caret-down"></i>)}  
+                </h3>
                   {expandedSections['pregunta9'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                       <p></p>Actualmente los GOPHORA NFT COLLECTIBLES : Criptopurrs pueden ser adquiridos por venta directa en GOPHORA desde el formulario de Preembarque o desde Open Sea según los siguientes precios:
@@ -126,7 +166,11 @@ function PreguntasScreen() {
                       </a>
                     </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta10')}>¿Qué es la GOPHORA STARSHIP?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta10')}>
+                  ¿Qué es la GOPHORA STARSHIP?
+                  {expandedSections['pregunta10'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta10'] && (<i className="bi bi-caret-down"></i>)}  
+                </h3>
                   {expandedSections['pregunta10'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                       <p></p>La GOPHORA STARSHIP es la avanzada plataforma central de GOPHORA, diseñada para ofrecer una experiencia única de exploración personal y profesional que no solo beneficia al tripulante sino deja un registro de contribución y habilidades excepcionales que son conectadas con la exploración espacial para que podamos ser sustentables y sostenibles en nuevos horizontes. 
@@ -140,7 +184,11 @@ function PreguntasScreen() {
                       <p></p>La GOPHORA STARSHIP redefine la exploración al fusionar lo manual y lo automático, brindando oportunidades personalizadas y exclusivas a cada tripulante. Descubre un viaje hacia horizontes sin igual en GOPHORA STARSHIP.
                     </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta11')}>¿En cuántos países estará disponible la herramienta GOPHORA STARSHIP?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta11')}>
+                  ¿En cuántos países estará disponible la herramienta GOPHORA STARSHIP?
+                  {expandedSections['pregunta11'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta11'] && (<i className="bi bi-caret-down"></i>)}
+                </h3>
                   {expandedSections['pregunta11'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                       <p></p>La herramienta GOPHORA STARSHIP tiene como objetivo llegar a múltiples países en diversas fases estratégicas, por el momento es impreciso estimar un número pero si estaremos presentes en diferentes idiomas, y regiones del mundo. 
@@ -153,7 +201,11 @@ function PreguntasScreen() {
                       <p></p>GOPHORA STARSHIP se proyecta como una herramienta global, disponible en diversos países, permitiendo a personas de diferentes culturas y regiones explorar nuevas oportunidades y contribuir a la exploración del espacio.
                     </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta12')}>¿Cuál es la ventaja de comprar AHORA un GOPHORA NFT COLLECTIBLE?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta12')}>
+                  ¿Cuál es la ventaja de comprar AHORA un GOPHORA NFT COLLECTIBLE?
+                  {expandedSections['pregunta12'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta12'] && (<i className="bi bi-caret-down"></i>)}
+                </h3>
                   {expandedSections['pregunta12'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                       <p>La compra de un GOPHORA NFT Collectible ahora ofrece varias ventajas distintivas:</p>
@@ -168,7 +220,11 @@ function PreguntasScreen() {
                       <p></p>Comprar ahora un GOPHORA NFT Collectible no solo te brinda acceso privilegiado a la plataforma y beneficios exclusivos, sino que también representa una oportunidad de ser parte de la comunidad de exploradores y beneficiarte de su valor a lo largo del tiempo.
                     </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta13')}>¿Cómo se holdean o guardan los NFTs de GOPHORA?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta13')}>
+                  ¿Cómo se holdean o guardan los NFTs de GOPHORA?
+                  {expandedSections['pregunta13'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta13'] && (<i className="bi bi-caret-down"></i>)}  
+                </h3>
                   {expandedSections['pregunta13'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                       <p>Holdear (o &quot;HODL&quot; en la jerga criptográfica) los GOPHORA NFT Collectibles es un proceso sencillo que implica retenerlos a largo plazo en lugar de venderlos de inmediato.</p>
@@ -184,7 +240,11 @@ function PreguntasScreen() {
                       </ol>
                     </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta14')}>¿Cómo puedo formar parte del proyecto?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta14')}>
+                  ¿Cómo puedo formar parte del proyecto?
+                  {expandedSections['pregunta14'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta14'] && (<i className="bi bi-caret-down"></i>)}
+                </h3>
                   {expandedSections['pregunta14'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                       <p>Puedes formar parte de GOPHORA STARSHIP en diferentes formas, desde ser un usuario activo hasta contribuir como miembro de la comunidad o incluso explorar oportunidades más colaborativas.</p>
@@ -201,7 +261,11 @@ function PreguntasScreen() {
                       </ol>
                     </div>
                   )}
-                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta15')}>¿Cómo invertir en GOPHORA?</h3>
+                <h3 className="text-warning mb-3 desplegar" onClick={() => handleToggleVisibility('pregunta15')}>
+                  ¿Cómo invertir en GOPHORA?
+                  {expandedSections['pregunta15'] && (<i className="bi bi-caret-up"></i>)}
+                  {!expandedSections['pregunta15'] && (<i className="bi bi-caret-down"></i>)}  
+                </h3>
                   {expandedSections['pregunta15'] && (
                     <div className='d-flex flex-column mb-5 text-light'>
                       <p>Puedes invertir en GOPHORA de 2 maneras:</p>

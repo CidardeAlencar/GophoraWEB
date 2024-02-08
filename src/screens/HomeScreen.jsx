@@ -71,8 +71,11 @@ function HomeScreen() {
           <img ref={image2Ref} src={firstPage2} alt="Our team" className="first-page-image d-md-none"/>
           <img ref={image3Ref} src={firstPage} alt="Our team" className="first-page-image d-none d-md-block"/>
           <div className="d-flex flex-column justify-content-center align-items-center">
-            <p className="font-class text-light first-page-text py-5 my-5">Nuestras membresías incluyen una <span className="text-warning">llave digital</span> de acceso a la
+            {/* <p className="font-class text-light first-page-text py-5 my-5">Nuestras membresías incluyen una <span className="text-warning">llave digital</span> de acceso a la
               GOPHORA STARSHIP. ¡El PREEMBARQUE está abierto!
+            </p> */}
+            <p className="font-class text-light first-page-text py-5 my-5">
+              ¡El PREEMBARQUE está abierto! <span className="text-warning">Compra tu membresía</span> hasta el 19 de Junio de 2024 y te la <span className="text-warning">TRIPLICAREMOS</span> en el momento de su activación. Oferta valida solo para Bolivia.
             </p>
             {/* <img src={qr} alt="Our team" className="img-fluid" style={{maxWidth:'100px'}}/> */}
           </div>
@@ -82,7 +85,9 @@ function HomeScreen() {
           <div className="">
             <img src={qr} alt="Our team" className="img-fluid d-md-none"/>
             <img src={qrglobe} alt="Our team" className="img-fluid d-md-none"/>
-            <img src={qrandglobe} alt="Our team" className="img-fluid d-none d-md-block"/>
+            <a href="https://drive.google.com/file/d/1geiLfvac36_PAKVqskkZQ5WI19d2Lnc6/preview" target="_blank" rel="noopener noreferrer">
+              <img src={qrandglobe} alt="Our team" className="img-fluid d-none d-md-block"/>
+            </a>
           </div>
         </div>
 
@@ -143,7 +148,7 @@ function HomeScreen() {
                   </div> */}
                 </div>
             </div>
-            <div className="col-12 d-flex justify-content-center align-items-center p-0">
+            {/* <div className="col-12 d-flex justify-content-center align-items-center p-0">
               <div style={{ position: "relative", width: "100%", paddingTop: "56.25%" }}>
                 <iframe
                   style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
@@ -153,7 +158,11 @@ function HomeScreen() {
                   allowFullScreen
                 ></iframe>
               </div>
-            </div>
+            </div> */}
+            <p className="text-light text-center font-class w-75 pb-5">
+              {/* *Obtén tu acceso directamente desde GOPHORA antes que se agote nuestro suministro limitado de NFTs para tu país y tengas que ir a OpenSea o adquirir un plan de pago por suscripción.”  */}
+              *Obtén tu acceso directamente desde GOPHORA antes que tengas que adquirir un plan de pago por suscripción.” 
+            </p>
           </div>
         </div>
         {/* <div className='container my-5'>
@@ -214,6 +223,7 @@ function HomeScreen() {
             </div>
           </div>
         </div> */}
+        
         {/* <div className="container">
           <p className="text-light text-justify font-class">La misión de la herramienta GOPHORA STARSHIP es entregar horizontes personalizados a sus tripulantes en trabajo, educación y experiencias Hobbies que desde la vida diaria desarrollen su potencial de contribución y legado en la exploración espacial.
           <br/>Todos son importantes para lograr ser sustentables y sostenibles en nuevos horizontes,, GOPHORA rescata el talento y la voluntad humana y la conecta con la exploración de nuevos horizontes.

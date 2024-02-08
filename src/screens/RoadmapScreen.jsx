@@ -40,8 +40,14 @@ function RoadmapScreen() {
           </div>
         </div>
       </div> */}
-      <h1 className="text-warning mb-5 desplegar" onClick={handleToggleVisibility}>ROADMAP</h1>
-      {isSectionVisible && (
+      <h1 className="text-warning mb-5 desplegar" onClick={handleToggleVisibility}>
+        ROADMAP
+        {isSectionVisible && (  
+        <i className="bi bi-caret-up"></i>)}
+        {!isSectionVisible && (  
+        <i className="bi bi-caret-down"></i>)}
+      </h1>
+      {isSectionVisible && (  
       <div>
       <div className="row d-flex align-items-center mb-5">
           <div className="col-4 text-center">
