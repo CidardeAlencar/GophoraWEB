@@ -61,7 +61,7 @@ function ComprarScreen() {
   };
 
   return (
-    <section className="home-section font-class d-flex align-items-center">
+    <section className="home-section font-class d-flex align-items-center my-5">
         <div className="container w-75 card-nft rounded-5">
             <div className="row">
               <div className="col-12"style={{ backgroundImage: `url(${backgroundImageN}) no-repeat center center fixed`, backgroundSize: 'cover' }}>
