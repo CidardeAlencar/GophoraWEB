@@ -1,9 +1,9 @@
 import nft1 from "../assets/nft1.png";
 import nft2 from "../assets/nft2.png";
 import nft3 from "../assets/nft3.png";
-import ComprarScreen from '../components/ComprarScreen'
 import NFTCards from '../components/nftCards'
 import NFTCards2 from "../components/nftCards2";
+import { Link } from 'react-router-dom';
 
 function NFTcollectibles() {
   return (
@@ -133,11 +133,10 @@ function NFTcollectibles() {
         </p>
         {/* aÑADIR Formulario */}
         <button className="font-class nav-link my-nav-link2 p-3 fs-1">
-          <a href="https://drive.google.com/file/d/16gu75RxbMBrJIigcQsgJqQAiUESbdxeB/preview" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+          <Link to="/formulario" style={{ color: 'inherit', textDecoration: 'none' }}>
             Formulario
-          </a>
+          </Link>
         </button>
-        <ComprarScreen/>
         {/*  */}
         <p className="text-light text-center font-class w-75 p-5">
           ¡Genial!, Ya que procesaste el pago con un agente de nuestro departamento comercial, revisa tu billetera cripto, en la sección de NFT, debería aparecer tu CRIPTOPURR MARTE ID o CRIP´TOPURR EA, para revisar los detalles de la transacción puedes verla en OpenSea, logueándote con tu billetera cripto en opensea.com. 
