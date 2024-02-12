@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom';
     // import bs from "../assets/bs.png";
     // import mt from "../assets/matic.png";
-import OpenSea from "../assets/opensea.png";
+// import OpenSea from "../assets/opensea.png";
 import gophora from "../assets/GOPHORASTARSHIP.png";
 function NFTCards2(props) {
     const {nftImage, title ,stitle,l1,l2,l3,l4,l5,l6,l7,l8} = props;
@@ -9,18 +10,18 @@ function NFTCards2(props) {
     <div className="container d-flex justify-content-center align-items-center">
         <div className="card m-3 card-nft text-light font-class rounded-5 p-4">
             <div className="row g-0">
-                <h3 className="card-title text-center p-3">{title}</h3>
+                <h3 className="card-title text-center p-3 text-warning" >{title}</h3>
                 <div className="col-md-4 d-flex justify-content-center align-items-center">
                     <img src={nftImage} className="img-fluid rounded" alt="..."/>
                 </div>
                 <div className="col-md-8 d-flex">
                     <div className="card-body d-flex flex-column align-items-center justify-content-center">
-                        <h4 className="card-text text-center p-3">{stitle}</h4>
+                        <h4 className="card-text text-center p-3" style={{color:'#733fff'}}>{stitle}</h4>
                         <ul>
                             <li>{l1}</li>
                             <li>{l2}</li>
                             <li>{l3}</li>
-                            <li>{l4}</li>
+                            {l4 && <li>{l4}</li>}
                             {l5 && <li>{l5}</li>}
                             {l6 && <li>{l6}</li>}
                             {l7 && <li>{l7}</li>}
@@ -38,14 +39,14 @@ function NFTCards2(props) {
                 </div> 
             </div>
             <div className="overlay">
-                <p>COMPRAR EN:</p>
+                <p>COMPRAR:</p>
                 <div className="iconos-contenedor">
-                    <a href="" target="_blank" rel="noopener noreferrer">
-                        <img src={gophora} className="img-fluid" alt="matic" style={{maxWidth:'200px'}}/>
-                    </a>
-                    <a href="" target="_blank" rel="noopener noreferrer">
+                <Link to="/formulario" style={{ color: 'inherit', textDecoration: 'none' }}>
+                    <img src={gophora} className="img-fluid" alt="matic" style={{maxWidth:'200px'}}/>
+                </Link>
+                    {/* <a href="" target="_blank" rel="noopener noreferrer">
                         <img src={OpenSea} className="img-fluid p-3" alt="matic" style={{maxWidth:'100px'}}/>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>

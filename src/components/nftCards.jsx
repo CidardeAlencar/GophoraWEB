@@ -15,7 +15,7 @@ function NFTCards(props) {
             </div>
             <div className="col-md-8 d-flex">
                 <div className="card-body d-flex flex-column align-items-center justify-content-center">
-                <h4 className="card-text text-center p-3">{stitle}</h4>
+                <h4 className="card-text text-center p-3" style={{color:'#733fff'}}>{stitle}</h4>
                 <ul>
                     <li>{l1}</li>
                     <li>{l2}</li>

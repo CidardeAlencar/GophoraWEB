@@ -84,7 +84,9 @@ function HomeScreen() {
         <div className="container d-flex flex-column align-items-center justify-content-center p-5 mb-5">
           <div className="">
             <img src={qr} alt="Our team" className="img-fluid d-md-none"/>
-            <img src={qrglobe} alt="Our team" className="img-fluid d-md-none"/>
+            <a href="https://drive.google.com/file/d/1geiLfvac36_PAKVqskkZQ5WI19d2Lnc6/preview" target="_blank" rel="noopener noreferrer">
+              <img src={qrglobe} alt="Our team" className="img-fluid d-md-none"/>           
+            </a>
             <a href="https://drive.google.com/file/d/1geiLfvac36_PAKVqskkZQ5WI19d2Lnc6/preview" target="_blank" rel="noopener noreferrer">
               <img src={qrandglobe} alt="Our team" className="img-fluid d-none d-md-block"/>
             </a>
