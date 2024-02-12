@@ -1,7 +1,8 @@
 import nft1 from "../assets/nft1.png";
 import nft2 from "../assets/nft2.png";
 import nft3 from "../assets/nft3.png";
-import NFTCards from '../components/nftCards'
+import nft4 from "../assets/nft4.png";
+// import NFTCards from '../components/nftCards'
 import NFTCards2 from "../components/nftCards2";
 import { Link } from 'react-router-dom';
 
@@ -39,29 +40,45 @@ function NFTcollectibles() {
         MARTE ID NFT de temporada con beneficios exclusivos para el holder y características especiales. */}
         <NFTCards2
           nftImage={nft1}
-          title="TRIPULANTE MARTE ID"
-          stitle="10 $us. / Anual"
-          l1="Nombre del tripulante en QR del lanzamiento espacial."
-          l2="Descuento en talleres y capacitaciones de interés del Ecosistema GOPHORA."
-          l3="Descuento en productos de empresas afiliadas a GOPHORA."
-          l4="Descuento en accesorios para experiencia GOPHORA."
-          l5="Acceso a oportunidades inmediatas de trabajo del ecosistema GOPHORA."
-          l6="Acceso a experiencias de hobbies y eventos del ecosistema de GOPHORA."
-          l7="1/200 acceso digital en forma de NFT a GOPHORA STARSHIP"
-          l8="MARTE ID NFT de temporada con beneficios exclusivos para el holder y características especiales."
+          title="TRIPULANTE MARTE"
+          stitle="300 Bs. / Anual"
+          
+          l1="Horizontes de Trabajo ilimitados."
+          l2="Horizontes de Educación ilimitados."
+          l3="Horizontes de Experiencias hobbies ilimitados."
+          // l4="Descuento en accesorios para experiencia GOPHORA."
+          // l5="Acceso a oportunidades inmediatas de trabajo del ecosistema GOPHORA."
+          // l6="Acceso a experiencias de hobbies y eventos del ecosistema de GOPHORA."
+          // l7="1/200 acceso digital en forma de NFT a GOPHORA STARSHIP"
+          // l8="MARTE ID NFT de temporada con beneficios exclusivos para el holder y características especiales."
         />
         <NFTCards2
           nftImage={nft2}
-          title="TRIPULANTE MARTE ID"
-          stitle="10 $us. / Anual"
-          l1="Nombre del tripulante en QR del lanzamiento espacial."
-          l2="Descuento en talleres y capacitaciones de interés del Ecosistema GOPHORA."
-          l3="Descuento en productos de empresas afiliadas a GOPHORA."
-          l4="Descuento en accesorios para experiencia GOPHORA."
-          l5="Acceso a oportunidades inmediatas de trabajo del ecosistema GOPHORA."
-          l6="Acceso a experiencias de hobbies y eventos del ecosistema de GOPHORA."
-          l7="1/200 acceso digital en forma de NFT a GOPHORA STARSHIP"
-          l8="MARTE ID NFT de temporada con beneficios exclusivos para el holder y características especiales."
+          title="TRIPULANTE LUNA"
+          stitle="180 Bs. / Anual"
+           Horizontes de Experiencias hobbies ilimitados
+          l1="Para Tripulantes Mujeres."
+          l2="Horizontes de Trabajo ilimitados."
+          l3="Horizontes de Educación ilimitados."
+          l4="Horizontes de Experiencias hobbies ilimitados."
+          // l5="Acceso a oportunidades inmediatas de trabajo del ecosistema GOPHORA."
+          // l6="Acceso a experiencias de hobbies y eventos del ecosistema de GOPHORA."
+          // l7="1/200 acceso digital en forma de NFT a GOPHORA STARSHIP"
+          // l8="MARTE ID NFT de temporada con beneficios exclusivos para el holder y características especiales."
+        />
+        <NFTCards2
+          nftImage={nft3}
+          title="TRIPULANTE TIERRA"
+          stitle="50 Bs. / Mensual"
+          //  Horizontes de Experiencias hobbies ilimitados
+          // l1="Para Tripulantes Mujeres."
+          l1="Horizontes de Trabajo ilimitados."
+          l2="Horizontes de Educación ilimitados."
+          l3="Horizontes de Experiencias hobbies ilimitados."
+          // l5="Acceso a oportunidades inmediatas de trabajo del ecosistema GOPHORA."
+          // l6="Acceso a experiencias de hobbies y eventos del ecosistema de GOPHORA."
+          // l7="1/200 acceso digital en forma de NFT a GOPHORA STARSHIP"
+          // l8="MARTE ID NFT de temporada con beneficios exclusivos para el holder y características especiales."
         />
         {/* <NFTCards 
           nftImage={nft1}
@@ -88,19 +105,19 @@ function NFTcollectibles() {
         <h2 className="font-class font-2 my-5">
           {/* DISPONIBLES */}
           {/* Accesos para Tripulantes */}
-          ACCESOS PARA EMPRESAS
+          ACCESOS PARA INSTITUCIONES Y EMPRESAS
         </h2>
-        <NFTCards 
-          nftImage={nft3}
-          title="CRIPTOPURR INVESTOR"
-          stitle="1 NFT ENTERO 100 Accesos"
-          l1="100 Accesos a GOPHORA STARSHIP niveles 1,2,3 y 4."
-          l2="100 Nombres en QR modulo espacial."
-          l3="50% Descuento de por vida en accesorios GOPHORA."
-          l4="Acceso a Metaverso GOPHORA."
-          l5="1 Land para negocio GOPHORA VR."
-          pb="2000"
-          pm="2800"
+        <NFTCards2
+          nftImage={nft4}
+          title="EMISOR DE HORIZONTES"
+          stitle="1000 Bs. / Mensual."
+          l1="Logotipo en subdominio de QR Espacial donde se encuentran listados los holders de los NFTs de GOPHORA, tripulantes oficiales de la STARSHIP."
+          l2="100 Emisiones de Trabajo."
+          l3="100 Emisiones de Educación."
+          l4="100 Emisiones de Experiencias hobbies."
+          // l5="1 Land para negocio GOPHORA VR."
+          // pb="2000"
+          // pm="2800"
         />
         {/* GUIA */}
         <h1 className="text-warning font-class p-5">

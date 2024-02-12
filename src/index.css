@@ -119,6 +119,7 @@ body {
   opacity: 0.8;
 }
 .my-nav-link2 {
+  color: #FFF;
   text-decoration: none;
   transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease, opacity 0.3s ease;
   border: 5px solid #ffb400;
